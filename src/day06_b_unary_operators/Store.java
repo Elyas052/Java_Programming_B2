@@ -4,18 +4,22 @@ public class Store {
     public static void main(String[] args) {
 
         String store = "Target";
-        int numOfTv = 100;
+        int numberOfTvs = 100;
 
-        System.out.println("Person comes into the store and they bought a TV");
-        //numOfTv = numOfTv - 1;
-        System.out.println("Number of TV now: " + --numOfTv);
+        System.out.println("Person comes into the store and they bought a tv");
+        System.out.println("Number of tvs now: " + --numberOfTvs);
 
-        System.out.println("Another person came and bough 1 more TV");
-        System.out.println("Number of TV now: " + --numOfTv);
+        System.out.println("Person comes into the store and they bought a tv");
+        System.out.println("Number of tvs now: " + --numberOfTvs);
 
-        System.out.println("In report, it shows that we have total: " + numOfTv);
+        System.out.println("Person comes into the store and they put tv into their cart");
+        System.out.println("Numbers of tvs in the store: " + numberOfTvs--);
+        System.out.println("Person bought it, now I have: " + numberOfTvs);
 
-        System.out.println("First person has returned a TV");
-        System.out.println("Number of TV now: " + ++numOfTv);
+        System.out.println("I get a shipment");
+        numberOfTvs = numberOfTvs + 13;
+
+        System.out.println("Tvs in stock: " + numberOfTvs);
+
     }
 }
