@@ -20,5 +20,6 @@ public class ParkingLot {
 
         cars = cars - 5;
         System.out.println(cars);
+
     }
 }
