@@ -6,7 +6,7 @@ public class Store {
         String store = "Target";
         int numberOfTvs = 100;
 
-        System.out.println("Person comes into the store and they bought a tv");
+        System.out.println("\nPerson comes into the store and they bought a tv");
         System.out.println("Number of tvs now: " + --numberOfTvs);
 
         System.out.println("Person comes into the store and they bought a tv");
@@ -20,6 +20,5 @@ public class Store {
         numberOfTvs = numberOfTvs + 13;
 
         System.out.println("Tvs in stock: " + numberOfTvs);
-
     }
 }

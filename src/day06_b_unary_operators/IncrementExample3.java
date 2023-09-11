@@ -6,13 +6,13 @@ public class IncrementExample3 {
         int z = i++; // z = 5
 
         System.out.println(i);
-        System.out.println(z);
+        System.out.println(z + "\n");
 
         int a = 10;
         int b = a + 1;
 
-        System.out.println(a);
-        System.out.println(b);
+        System.out.println(a); // 10
+        System.out.println(b + "\n"); // 11
 
         int c = ++a; // a - 10 -> 10 + 1 = 11
 
