@@ -2,6 +2,7 @@ package day05_variables;
 
 public class School {
     public static void main(String[] args) {
+
         int numberOfStudentsInGrade1 = 30;
         int numberOfStudentsInGrade2 = 40;
         int numberOfStudentsInGrade3 = 25;

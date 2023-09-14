@@ -2,6 +2,7 @@ package day05_variables;
 
 public class MyName {
     public static void main(String[] args) {
+
         char first = 'E';
         char second = 'l';
         char three = 'y';

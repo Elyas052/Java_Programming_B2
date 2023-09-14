@@ -2,6 +2,7 @@ package day05_variables;
 
 public class CharExample {
     public static void main(String[] args) {
+
         // Assign characters to the char data type
         char letterOne = 'a';
         char letterTwo = 'Z';

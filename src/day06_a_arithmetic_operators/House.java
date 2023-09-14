@@ -2,6 +2,7 @@ package day06_a_arithmetic_operators;
 
 public class House {
     public static void main(String[] args) {
+
         String houseType = "Penthouse";
         int numberOfBedrooms = 4;
         int numberOfBathrooms = 3;
