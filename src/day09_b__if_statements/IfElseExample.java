@@ -5,7 +5,7 @@ public class IfElseExample {
 
         int score = 60;
 
-        if (score >= 75) {  // check if this line TRUE, execute the if body,
+        if (score >= 75) {  // check if this line TRUE, execute the if body
 
             System.out.println("Passing!");
 
