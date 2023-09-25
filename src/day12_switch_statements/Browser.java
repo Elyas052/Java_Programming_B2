@@ -17,7 +17,7 @@ public class Browser {
         switch (browser) {
             case "chrome":
                 System.out.println("Opening " + url + " in the " + browser + " browser");
-                System.out.println("Loading..... Intersting page");
+                System.out.println("Loading..... Interesting page");
                 break;
             case "Edge":
                 System.out.println("Opening " + url + " in the " + browser + " browser");

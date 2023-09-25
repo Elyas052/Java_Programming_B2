@@ -13,7 +13,7 @@ public class Schedule {
         switch (day) {
 
             case "Monday":
-                result = "No classes for now, but it will soon start.\nIt will be mentor sessions from 7pm-10pm EST.\nMentor sessions will not be recorded. ";
+                result = "No classes for now, but it will soon start.\nIt will be mentor sessions from 7 pm-10 pm EST.\nMentor sessions will not be recorded. ";
                 break;
             case "Tuesday":
                 result = "No classes. Champions league doing Java task.";
@@ -34,8 +34,8 @@ public class Schedule {
                 result = "No classes but get ready for Saturday long hours";
                 break;
             case "Sunday":
-            case "SUnday, SUNDAY, SUn": // This will not match if you provide just 'SUn'. It will match it you provide the entire String "SUnday, SUNDAY, SUn"
-                result = "It is kind of no class.But still important.";
+            case "Sunday, SUNDAY, SUn": // This will not match if you provide just 'SUn'. It will match it you provide the entire String "Sunday, SUNDAY, SUn"
+                result = "It is kind of no class. But still important.";
                 break;
             default:
                 result = "Not valid day of week";

@@ -10,7 +10,7 @@ public class ChooseLanguage {
 
         int userOption = input.nextInt(); // 9
 
-        String message = "";
+        String message;
 
         if (userOption == 1) {
             message = "hello, thanks for your call";

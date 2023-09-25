@@ -26,7 +26,7 @@ public class Starbucks {
                 calories = 150;
                 break;
 
-            case "venti":
+            case "vent":
                 price = 4.50;
                 calories = 200;
                 break;
@@ -34,7 +34,6 @@ public class Starbucks {
             default:
                 System.out.println("We do not have the size");
                 isNotValid = false;
-
         }
 
         if (isNotValid) {

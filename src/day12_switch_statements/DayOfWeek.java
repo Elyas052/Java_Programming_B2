@@ -38,4 +38,5 @@ public class DayOfWeek {
 
         System.out.println(day);
     }
+
 }
