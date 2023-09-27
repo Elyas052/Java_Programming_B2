@@ -26,7 +26,7 @@ public class Starbucks {
                 calories = 150;
                 break;
 
-            case "vent":
+            case "venti":
                 price = 4.50;
                 calories = 200;
                 break;
