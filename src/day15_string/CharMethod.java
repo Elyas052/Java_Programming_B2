@@ -13,6 +13,7 @@ public class CharMethod {
         System.out.println(s.charAt(3));
         // System.out.println(s.charAt(4));
 
+        // dynamic length
         int lastIndex = s.length() - 1; // 4 - 1 = 3
         System.out.println("last char: " + s.charAt(lastIndex)); // this is the same as line 13, but line 13 is hardcoded
 

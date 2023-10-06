@@ -1,4 +1,4 @@
-package day14;
+package day14_string;
 
 public class StartAndEnd {
     public static void main(String[] args) {

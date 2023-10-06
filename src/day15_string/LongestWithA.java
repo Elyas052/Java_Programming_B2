@@ -16,15 +16,19 @@ public class LongestWithA {
         int twoLen = wordTwo.length();
         int threeLen = wordThree.length();
 
-        if(wordOne.contains("a") && oneLen > twoLen && oneLen > threeLen){
-            System.out.println(wordOne + " is the biggest with a");
-        } else if (wordTwo.contains("a") && twoLen > oneLen && twoLen > threeLen){
-            System.out.println(wordTwo + " is the biggest with a");
-        } else if(wordThree.contains("a") && threeLen > oneLen && threeLen > twoLen){
-            System.out.println(wordThree + " is the biggest with a");
+        String msg = "";
+
+        // We use word length to find the largest word with a
+        if (wordOne.contains("a") && oneLen > twoLen && oneLen > threeLen) {
+            msg = wordOne + " is the biggest with a";
+        } else if (wordTwo.contains("a") && twoLen > oneLen && twoLen > threeLen) {
+            msg = wordTwo + " is the biggest with a";
+        } else if (wordThree.contains("a") && threeLen > oneLen && threeLen > twoLen) {
+            msg = wordThree + " is the biggest with a";
         } else {
-            System.out.println("No single largest word with a");
+            msg = "No single largest word with a";
         }
+        System.out.printf(msg);
 
     }
 }

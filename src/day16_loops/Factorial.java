@@ -1,4 +1,4 @@
-package day16;
+package day16_loops;
 
 public class Factorial {
     public static void main(String[] args) {

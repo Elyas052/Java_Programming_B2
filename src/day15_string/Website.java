@@ -7,7 +7,7 @@ public class Website {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter the url");
+        System.out.print("Enter the url: ");
         String url = input.next(); // www.google.com
         //012345678910
 

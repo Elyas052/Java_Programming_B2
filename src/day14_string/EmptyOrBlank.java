@@ -1,4 +1,4 @@
-package day14;
+package day14_string;
 
 public class EmptyOrBlank {
     public static void main(String[] args) {

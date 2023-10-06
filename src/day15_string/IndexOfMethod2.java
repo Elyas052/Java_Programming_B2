@@ -13,8 +13,8 @@ public class IndexOfMethod2 {
 
         System.out.println(s2.indexOf("cb"));
 
-        System.out.println(s2.indexOf("cbd")); // cbd sequence is not in the String so we get -1
-        System.out.println(s2.indexOf('z')); // the character z is not in the String so we get -1
+        System.out.println(s2.indexOf("cbd")); // cbd sequence is not in the String, so we get -1
+        System.out.println(s2.indexOf('z')); // the character z is not in the String, so we get -1
 
     }
 }

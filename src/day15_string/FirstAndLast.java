@@ -6,7 +6,7 @@ public class FirstAndLast {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter a sentence");
+        System.out.print("Enter a sentence: ");
         String str = input.nextLine();
 
         System.out.println("First char: " + str.charAt(0));

@@ -7,13 +7,13 @@ public class Initials {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter your first name: ");
+        System.out.print("Enter your first name: ");
         String firstName = input.next().toUpperCase();
 
-        System.out.println("Enter your last name: ");
+        System.out.print("Enter your last name: ");
         String lastName = input.next().toUpperCase();
 
-        System.out.println("" + firstName.charAt(0) + lastName.charAt(0));
+        System.out.println("" + firstName.charAt(0) + " + " + lastName.charAt(0));
 
         /*
             1)
