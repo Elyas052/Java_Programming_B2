@@ -12,5 +12,6 @@ public class IncrementExample2 {
         System.out.println(age); // 22
 
         System.out.println(++age); // 23
+
     }
 }

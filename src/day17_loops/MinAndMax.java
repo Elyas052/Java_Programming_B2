@@ -34,5 +34,6 @@ public class MinAndMax {
 
         System.out.println("Max: " + highest);
         System.out.println("Min: " + lowest);
+
     }
 }

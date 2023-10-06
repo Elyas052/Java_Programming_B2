@@ -17,5 +17,6 @@ public class IndexOfExample {
 
         int thirdIndex = word.indexOf('a', secondIndex + 1);
         System.out.println(thirdIndex);
+
     }
 }

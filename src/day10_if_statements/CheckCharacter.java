@@ -12,5 +12,6 @@ public class CheckCharacter {
         if ('a' <= letter && letter <= 'z') {
             System.out.println("\nlowercase");
         }
+
     }
 }

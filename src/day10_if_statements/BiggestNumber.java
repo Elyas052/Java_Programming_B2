@@ -6,6 +6,7 @@ public class BiggestNumber {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
+
         System.out.println("Enter three numbers: ");
 
         int num1 = scan.nextInt();  // num1 >= num2 and num1 > num3
@@ -19,6 +20,7 @@ public class BiggestNumber {
             System.out.println(num2 + " is the biggest one");
         } else {
             System.out.println(num3 + " is the biggest one");
+
         }
     }
 }

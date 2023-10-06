@@ -31,5 +31,6 @@ public class OperatorPractice {
          */
         System.out.println(r);
         System.out.println(k);
+
     }
 }

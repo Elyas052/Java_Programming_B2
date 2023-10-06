@@ -25,5 +25,6 @@ public class Order {
         String orderDetail = orderName + ", your order for " + quantity + " " + productName + " has been placed.\nYour total is $" + totalPrice;
 
         System.out.println(orderDetail);
+
     }
 }

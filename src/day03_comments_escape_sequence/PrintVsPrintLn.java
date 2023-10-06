@@ -15,5 +15,6 @@ public class PrintVsPrintLn {
         System.out.print("\t name");
         System.out.print("\t name");
         System.out.print("\t name ");
+
     }
 }

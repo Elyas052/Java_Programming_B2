@@ -31,5 +31,6 @@ public class UpdateVariable {
 
         count %= 2; // count = count % 2; --- > count = -3 % 2;  --- >  count = -1
         System.out.println(count);
+
     }
 }

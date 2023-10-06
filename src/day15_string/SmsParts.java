@@ -17,5 +17,6 @@ public class SmsParts {
         System.out.println("Sender: " + msg.substring(senderStart + 1, senderEnd));
         System.out.println("Number: " + msg.substring(numberStart + 1, numberEnd));
         System.out.println("Message: " + msg.substring(msgStart + 1, msgEnd));
+
     }
 }

@@ -22,5 +22,6 @@ public class GuessNumbers {
         } while (guessedNumber != secretNumber); // 20 != 77 --- > true | 77 != 77
 
         System.out.println("You guessed it correct");
+
     }
 }

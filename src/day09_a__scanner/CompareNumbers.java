@@ -12,5 +12,6 @@ public class CompareNumbers {
         int num2 = input.nextInt();
 
         System.out.println("The numbers are equal: " + (num1 == num2));
+
     }
 }

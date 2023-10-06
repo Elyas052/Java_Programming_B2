@@ -20,5 +20,6 @@ public class House {
         String houseInfo = "\nThe " + houseType + " on " + address + ", " + zipcode + " costs $" + costOfHouse + "\nThe " + houseType + " has " + numberOfBedrooms + " bedrooms, " + numberOfBathrooms + " bathrooms, " + numberOfKitchens + " kitchen.\nIt also includes a basement: " + hasBasement + ", has an attic: " + hasAttic + ", has a pool: " + hasPool + ", \nis on sale: " + isOnSale + ", and has a park: " + hasPark + ".\nThe schools in the area have a rating of " + schoolRating;
 
         System.out.println(houseInfo);
+
     }
 }

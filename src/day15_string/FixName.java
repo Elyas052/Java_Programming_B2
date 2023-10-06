@@ -6,8 +6,10 @@ public class FixName {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
+
         System.out.println("Enter your first name");
         String firstName = input.next(); //    jaMES
+
         System.out.println("Enter your last name");
         String lastName = input.next();
 
@@ -22,5 +24,6 @@ public class FixName {
         String fixedLast = lastName.substring(0,1).toUpperCase() + lastName.substring(1);
 
         System.out.println(fixedFirst + " " + fixedLast);
+
     }
 }

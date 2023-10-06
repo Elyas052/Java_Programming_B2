@@ -31,5 +31,6 @@ public class RecapVariables {
 
         System.out.println("\nThis is my temperature: " + temperature);
         System.out.println("It is day " + javaDays + " in java class");
+
     }
 }

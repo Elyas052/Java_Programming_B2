@@ -6,6 +6,7 @@ public class Browser {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
+
         System.out.print("Enter you browser: ");
 
         String browser = input.nextLine(); // In case, we have multiple words
@@ -37,5 +38,6 @@ public class Browser {
             default:
                 System.out.println(browser + " is not a valid browser type.");
         }
+
     }
 }

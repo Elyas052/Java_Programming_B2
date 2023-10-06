@@ -25,5 +25,6 @@ public class DoWhileExample {
             System.out.println(a3);
             a3++;
         }
+
     }
 }

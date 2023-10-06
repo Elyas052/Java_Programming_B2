@@ -27,5 +27,6 @@ public class RelationalOperatorExample {
 
         System.out.println('f' == 'g'); // false - here we are comparing the ASCII table numbers of the characters
         System.out.println('f' == 'f');
+
     }
 }

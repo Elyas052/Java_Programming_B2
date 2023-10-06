@@ -7,5 +7,6 @@ public class FloatingNumbers {
         double price = 3.99;
 
         float average = 0.14F;
+
     }
 }

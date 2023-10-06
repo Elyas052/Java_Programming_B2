@@ -2,6 +2,7 @@ package day06_b_unary_operators;
 
 public class Shopoing {
     public static void main(String[] args) {
+
         int numberOfItems = 0;
         double price = 0.0;
 
@@ -14,5 +15,6 @@ public class Shopoing {
         System.out.println("how many items in the cart: " + ++numberOfItems);
 
         System.out.println(numberOfItems++);
+
     }
 }

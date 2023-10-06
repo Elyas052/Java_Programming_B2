@@ -14,5 +14,6 @@ public class AddNumbers {
         int num3 = input.nextInt();
 
         System.out.println("The sum is " + (num1 + num2 + num3));
+
     }
 }

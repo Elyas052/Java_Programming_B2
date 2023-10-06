@@ -23,5 +23,6 @@ public class Atm {
         } else {
             System.out.println("LOCKED OUT");
         }
+
     }
 }

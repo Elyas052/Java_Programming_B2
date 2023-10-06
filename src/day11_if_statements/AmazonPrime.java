@@ -27,5 +27,6 @@ public class AmazonPrime {
             message = "Not eligible for free shipping. Shipping fee: 3.99";
         }
         System.out.println(message);
+
     }
 }

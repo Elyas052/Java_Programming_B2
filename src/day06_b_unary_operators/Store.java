@@ -20,5 +20,6 @@ public class Store {
         numberOfTvs = numberOfTvs + 13;
 
         System.out.println("Tvs in stock: " + numberOfTvs);
+
     }
 }

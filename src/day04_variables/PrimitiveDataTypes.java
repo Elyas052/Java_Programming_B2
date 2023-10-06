@@ -6,5 +6,6 @@ public class PrimitiveDataTypes {
         byte age = 60;
         System.out.println("age");
         System.out.println(age);
+
     }
 }

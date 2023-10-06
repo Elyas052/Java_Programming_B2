@@ -20,5 +20,6 @@ public class YourInfo {
         System.out.println("Your age: " + age);
         System.out.println("Your favorite number: " + favoriteNumber);
         System.out.println("Your book name: " + book);
+
     }
 }

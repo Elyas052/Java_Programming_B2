@@ -27,5 +27,6 @@ public class IncrementExample {
         System.out.println(x++ + "\n"); // POST-INCREMENT - it prints first and then update the x
 
         System.out.println(x + "\n"); // 6
+
     }
 }

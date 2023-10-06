@@ -33,6 +33,7 @@ public class LoginApp {
                 //System.out.println("\t\tInvalid SSN");
             }
             System.out.println(message);
+
         }
     }
 }

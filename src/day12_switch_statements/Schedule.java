@@ -6,6 +6,7 @@ public class Schedule {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
+
         System.out.print("What day of week is it and what is it about? ");
         String day = input.next();
         String result = "";
@@ -43,5 +44,6 @@ public class Schedule {
         }
 
         System.out.println(result);
+
     }
 }

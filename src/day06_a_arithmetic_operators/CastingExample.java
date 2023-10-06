@@ -34,5 +34,6 @@ public class CastingExample {
 
         System.out.println((int) '&');
         System.out.println((int) '$');
+
     }
 }

@@ -1,4 +1,4 @@
-package day09_a__scanner;
+package day08_scanner_logical_operators;
 
 import java.util.Scanner;
 
@@ -10,5 +10,6 @@ public class FirstScanner {
         System.out.println("Please enter a number");
         int number = input.nextInt();
         System.out.println("This is your number " + number);
+
     }
 }

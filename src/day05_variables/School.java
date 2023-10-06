@@ -35,5 +35,6 @@ public class School {
         System.out.println("Number Of Snow Days In A Year: " + numberOfSnowDaysInAYear);
 
         System.out.println("Average GPA In School: " + averageGPAInSchool);
+
     }
 }

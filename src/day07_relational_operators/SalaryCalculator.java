@@ -17,5 +17,6 @@ public class SalaryCalculator {
         String taxReport = "\nState tax rate: " + stateTax + ", Federal tax rate: " + federalTax + ", Base Salary $" + salary + "\nTax amount: $" + stateTax + " for State Tax and " + federalTax + " Federal Tax, in total it is: $" + totalTax + "\nAfter tax our salary is: $" + salaryAfterTax;
 
         System.out.println(taxReport);
+
     }
 }

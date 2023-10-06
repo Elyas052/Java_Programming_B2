@@ -39,5 +39,6 @@ public class Starbucks {
         if (isNotValid) {
             System.out.println("You order for a " + size + " coffee is $" + price + " and has " + calories + " calories.");
         }
+
     }
 }

@@ -6,6 +6,7 @@ public class DayOfWeek {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
+
         System.out.print("Enter a number that represents day of week / 1-7: ");
         int dayNum = input.nextInt();
 
@@ -37,6 +38,6 @@ public class DayOfWeek {
         }
 
         System.out.println(day);
-    }
 
+    }
 }

@@ -12,5 +12,6 @@ public class OperatorPractice4 {
         System.out.println("t: " + t); // 100
         System.out.println("p: " + p); // 202
         System.out.println("c: " + c);
+
     }
 }

@@ -18,5 +18,6 @@ public class MoveFirstWord {
         // String result = sentence.substring(spaceIndex).trim() + " " + firstWord;
 
         System.out.println(result);
+
     }
 }

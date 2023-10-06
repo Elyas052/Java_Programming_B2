@@ -17,5 +17,6 @@ public class PrintEachChar {
         for (int i = 0; i <= str.length() - 1; i++) {   //         for (int i = 0; i < str.length(); i++) {
             System.out.println(str.charAt(i));
         }
+
     }
 }

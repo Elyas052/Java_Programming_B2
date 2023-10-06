@@ -18,5 +18,6 @@ public class TabAndNextLine {
         System.out.println("3) wash car");
 
         System.out.println("\n1) Go to store \n2) grab milk \n3) wash car");
+
     }
 }

@@ -22,5 +22,6 @@ public class ShoppingList {
         } while (addMore.equalsIgnoreCase("yes"));  // If user types "yes" or "YES" --- > continue adding. Anything other than 'yes' will end the loop
 
         System.out.println(list);
+
     }
 }

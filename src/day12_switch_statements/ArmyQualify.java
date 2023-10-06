@@ -38,5 +38,6 @@ public class ArmyQualify {
         } else {
             System.out.println("You must be a citizen or resident");
         }
+
     }
 }
