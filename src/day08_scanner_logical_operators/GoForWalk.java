@@ -7,5 +7,6 @@ public class GoForWalk {
         int temperature = 80;
 
         System.out.println("\nGo for walk - " + (!isRaining && temperature > 70)); // !false -> true
+
     }
 }

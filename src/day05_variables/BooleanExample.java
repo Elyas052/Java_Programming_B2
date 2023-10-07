@@ -12,5 +12,6 @@ public class BooleanExample {
         System.out.println("isHungry = " + isHungry);
         System.out.println("isWeekend = " + isWeekend);
         System.out.println("isWeekDay = " + isWeekDay);
+
     }
 }

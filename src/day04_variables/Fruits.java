@@ -19,5 +19,6 @@ public class Fruits {
 
         //  System.out.println("The price of my 25 apples is $20"); hard coded
         System.out.println("The price of my " + apples  + " apples is $" + price);
+
     }
 }

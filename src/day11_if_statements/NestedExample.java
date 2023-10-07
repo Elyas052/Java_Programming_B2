@@ -31,5 +31,6 @@ public class NestedExample {
                 System.out.println("Hello 2");
             }
         }
+
     }
 }

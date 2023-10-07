@@ -13,5 +13,6 @@ public class ScannerIntro {
         System.out.println("Please enter a number: ");
         int num = input.nextInt();  // 78
         System.out.println("If I add 3 to your number, it will be: " + (num + 3));
+
     }
 }

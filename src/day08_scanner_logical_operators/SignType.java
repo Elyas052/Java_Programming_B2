@@ -14,5 +14,6 @@ public class SignType {
         System.out.println(num + " is positive: " + isPositive);
         System.out.println(num + " is zero:\t   " + isZero);
         System.out.println(num + " is not zero: " + isNotZero);
+
     }
 }

@@ -45,5 +45,6 @@ public class TypeCasting {
         int i7 = (int) d3;
         System.out.println(d3);
         System.out.println(i7);
+
     }
 }

@@ -11,5 +11,6 @@ public class GiftCard {
         giftCardBalance -= secondItem; // giftCardBalance = giftCardBalance - secondItem;
 
         System.out.println("Your gift card balance is now: " + giftCardBalance);
+
     }
 }

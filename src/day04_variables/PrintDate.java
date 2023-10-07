@@ -8,5 +8,6 @@ public class PrintDate {
         int year = 1983;
 
         System.out.println(mount + "/"+ day + "/" + year);
+
     }
 }

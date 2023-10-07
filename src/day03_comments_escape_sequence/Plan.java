@@ -19,5 +19,6 @@ public class Plan {
         System.out.println("Be better than you were yesterday");
 
         //TODO: add more goals in a week
+
     }
 }

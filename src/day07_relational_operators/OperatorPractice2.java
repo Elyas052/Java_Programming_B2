@@ -12,5 +12,6 @@ public class OperatorPractice2 {
         System.out.println(a--); // output: 35
 
         System.out.println(a); // output: 34
+
     }
 }

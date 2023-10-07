@@ -43,5 +43,6 @@ public class ShortCircuit {
         int b = 0;
         System.out.println(false & b++ == 5);
         System.out.println(b);
+
     }
 }

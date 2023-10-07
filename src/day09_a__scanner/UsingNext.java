@@ -7,7 +7,6 @@ public class UsingNext {
 
         Scanner input = new Scanner(System.in);
 
-
         System.out.print("What is the day of week? ");
         String day = input.nextLine();
 
@@ -30,5 +29,6 @@ public class UsingNext {
         System.out.println("Lastname: " + lastName);
         System.out.println("Address: " + address);
         System.out.println("Your bank username: " + userName);
+
     }
 }

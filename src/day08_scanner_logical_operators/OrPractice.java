@@ -11,5 +11,6 @@ public class OrPractice {
         System.out.println(apples > 10 && oranges == 10); // false && true  --> false
 
         // get a discount if it is a friday and you are a teacher or police office, or firefighter
+
     }
 }

@@ -17,5 +17,6 @@ public class OperatorPractice3 {
         int g = ++h;
         System.out.println("h: " + h);
         System.out.println("g: " + g);
+
     }
 }

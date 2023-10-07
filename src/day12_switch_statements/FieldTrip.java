@@ -47,5 +47,6 @@ public class FieldTrip {
         } else {
             System.out.println("Grade must be between 1-6");
         }
+
     }
 }

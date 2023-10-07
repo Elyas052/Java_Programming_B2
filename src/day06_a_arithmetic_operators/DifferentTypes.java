@@ -32,5 +32,6 @@ public class DifferentTypes {
         byte sumByte = (byte) (b1 + b2);
         System.out.println(sum);
         System.out.println(sumByte);
+
     }
 }

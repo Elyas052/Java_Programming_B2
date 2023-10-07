@@ -69,5 +69,6 @@ public class DayOfWeek {
         } else {
             System.out.println("Not valid number of week day");
         }
+
     }
 }

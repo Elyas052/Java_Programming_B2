@@ -14,5 +14,6 @@ public class Pizza {
         String report = "\nWe ordered " + typeOfPizza + " pizza with the " + numOfSlices + " slices.\n" + numOfPeople + " people ate " + slicesPerPerson + " for each. There were " + slicesLeftOver + " slices left";
 
         System.out.println(report);
+
     }
 }

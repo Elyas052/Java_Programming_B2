@@ -1,10 +1,9 @@
 package day11_if_statements;
 
-import java.util.*;
-
 public class Diver {
 
     public static void main(String[] args) {
+
         int oxygenLevel = 85;
 
         if (oxygenLevel > 90) {
@@ -57,5 +56,6 @@ public class Diver {
             message = "You were a good. Rest in peace. BYE BYE";
         }
         System.out.println(message);
+
     }
 }

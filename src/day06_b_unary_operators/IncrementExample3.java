@@ -16,5 +16,6 @@ public class IncrementExample3 {
         int c = ++a; // a - 10 -> 10 + 1 = 11
         System.out.println(c);
         System.out.println(a);
+
     }
 }

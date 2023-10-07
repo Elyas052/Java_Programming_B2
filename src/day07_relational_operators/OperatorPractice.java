@@ -13,5 +13,6 @@ public class OperatorPractice {
         System.out.println(num++);// post-increment -- > we get/print the value first, then we update it. --- 10  | num = 11;
         System.out.println(num++); // output -- > 11   |  num = 12;
         System.out.println(++num); // pre-increment --- > we update first, then user it --- > num = 13; | print - 13
+
     }
 }

@@ -6,6 +6,7 @@ public class FizzBuzz {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
+
         System.out.print("Enter a number: ");
         int number = input.nextInt();
 
@@ -38,5 +39,6 @@ public class FizzBuzz {
         }
 
         System.out.println(result);
+
     }
 }

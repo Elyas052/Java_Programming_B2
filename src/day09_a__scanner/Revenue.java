@@ -22,5 +22,6 @@ public class Revenue {
         double revenue = price * quantity;
 
         System.out.println("Revenue: $" + revenue);
+
     }
 }

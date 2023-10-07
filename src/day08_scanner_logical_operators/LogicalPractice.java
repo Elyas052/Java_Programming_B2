@@ -17,5 +17,6 @@ public class LogicalPractice {
         System.out.println(!true); // not true -> false
 
         System.out.println(4 != 4);
+
     }
 }

@@ -7,5 +7,6 @@ public class TellMeAboutYourself {
         System.out.println("Originally from Azerbaijan");
         System.out.println("My favorite color is red");
         System.out.println("Hobby is play games");
+
     }
 }

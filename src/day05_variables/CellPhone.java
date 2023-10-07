@@ -21,5 +21,6 @@ public class CellPhone {
         System.out.println();
         System.out.println(fullMessage);
         // the point that, we can print the whole message again, very easily
+
     }
 }

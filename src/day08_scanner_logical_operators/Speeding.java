@@ -9,5 +9,6 @@ public class Speeding {
         boolean isSpeeding = currentSpeed > speedLimit;
 
         System.out.println("\nAre you speeding: " + isSpeeding);
+
     }
 }
