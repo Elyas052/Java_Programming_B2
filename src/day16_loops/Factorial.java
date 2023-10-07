@@ -10,7 +10,7 @@ public class Factorial {
         // repeated action: multiply the numbers by one less than it
         // stopping point: number gets to 1
 
-        while(n > 1){
+        while (n > 1) {
             System.out.println(result + " * " + n);
             result *= n; // result = result * n
             n--;

@@ -4,43 +4,40 @@ public class PrintNumbers {
     public static void main(String[] args) {
 
         int n = 2;
-
-        while(n <= 100){
-            System.out.println(n);
+        while (n <= 20) {
+            System.out.print(n + " ");
             n += 2;
         }
 
-        System.out.println();
+        System.out.println("\n");
         // approach 2:
 
         int i = 1;
-
-        while(i <= 100){
-
-            if(i % 2 == 0){
-                System.out.println(i);
+        while (i <= 20) {
+            if (i % 2 == 1) {
+                System.out.print(i + " ");
             }
             i++;
         }
 
-        System.out.println();
+        System.out.println("\n");
 
 
         // odd numbers
 
         int a = 1;
 
-        while(a <= 100){
+        while (a <= 100) {
             System.out.print(a + " ");
             a += 2; // a = a + 2;
         }
 
-        System.out.println();
+        System.out.println("\n");
         // approach 2
 
         int b = 0;
 
-        while(b++ < 100){
+        while (b++ < 100) {
             if (b % 2 == 1) {
                 System.out.print(b + " ");
             }

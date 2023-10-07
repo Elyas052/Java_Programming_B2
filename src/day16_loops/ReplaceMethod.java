@@ -21,7 +21,7 @@ public class ReplaceMethod {
         String middleStr = target.substring(firstIndex, secondIndex);
         middleStr = middleStr.replace("monday", "weekday");
 
-        System.out.println(target.substring(0 , firstIndex) + middleStr + target.substring(secondIndex));
+        System.out.println(target.substring(0, firstIndex) + middleStr + target.substring(secondIndex));
 
     }
 }
