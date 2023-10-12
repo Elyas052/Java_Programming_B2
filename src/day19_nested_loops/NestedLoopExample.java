@@ -1,0 +1,22 @@
+package day19_nested_loops;
+
+public class NestedLoopExample {
+
+    public static void main(String[] args) {
+
+        // Outer loop
+        for (int week = 1; week <= 4; week++) {
+
+            System.out.println("Week: " + week);
+
+            // Inner loop
+            for (int day = 1; day <= 7; day++) {  // day = 8;
+                System.out.println("Day " + day);
+            }
+
+            System.out.println();
+
+        }
+
+    }
+}
