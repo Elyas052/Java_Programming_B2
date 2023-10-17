@@ -3,10 +3,10 @@ package day07_relational_operators;
 public class OperatorPractice3 {
     public static void main(String[] args) {
 
-        int h = 5; // I declared an int variable called h and assign a value 5 to it.
+        int h = 5; // I declared an int variable called h and assign value 5 to it.
         int p = h; // I declared an int variable called p and assigned a value from variable h
 
-        h++;  // post-increment - no other code | Just increase by 1
+        h++;  // post-increment - no other code | increase by 1
         System.out.println("h: " + h); //Output: 6
         System.out.println("p: " + p); //Output: 5
 

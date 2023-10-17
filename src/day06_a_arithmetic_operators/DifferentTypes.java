@@ -10,7 +10,7 @@ public class DifferentTypes {
         // double   /  int  => double
         System.out.println(10.0 / 5 + "\n");
 
-        // double   / double => double
+        // double / double => double
         System.out.println(10.0 / 5.0 + "\n");
 
         // int  / double    => double

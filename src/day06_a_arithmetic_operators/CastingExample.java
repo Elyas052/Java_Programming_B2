@@ -30,7 +30,7 @@ public class CastingExample {
         int let2 = 66;
         char let3 = (char) let2;
         System.out.println(let3);
-        System.out.println((char) 66 + "\n");  // this is the same thing as above, But we directly casted it in the print statement.
+        System.out.println((char) 66 + "\n");  // this is the same thing as above, But we directly cast it in the print statement.
 
         System.out.println((int) '&');
         System.out.println((int) '$');

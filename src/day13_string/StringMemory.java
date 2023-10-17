@@ -19,7 +19,7 @@ public class StringMemory {
 
         System.out.println(first == fourth);
 
-        // at this point how many total object is there. 3 -> 2 in the String pool and 1 separate object directly in the heap
+        // at this point, how many total objects are there. 3 -> 2 in the String pool and one separate object directly in the heap
 
         String fifth = new String("java");
         System.out.println(second == fifth);

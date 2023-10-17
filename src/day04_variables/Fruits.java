@@ -12,7 +12,7 @@ public class Fruits {
         System.out.println("Bananas: " + bananas);
 
         System.out.println("Sold some apples");
-        apples = 30; // reassigning apples to have value of 25
+        apples = 30; // reassigning apples to have a value of 25
         System.out.println("Apples after selling: " + apples);
 
         int price = 15;

@@ -3,7 +3,7 @@ package day07_relational_operators;
 public class UpdateVariable {
     public static void main(String[] args) {
 
-        // how many different way we can add 1
+        // how many different ways we can add 1
         int a = 10;
         a = 10 + 1;
         a = 12;

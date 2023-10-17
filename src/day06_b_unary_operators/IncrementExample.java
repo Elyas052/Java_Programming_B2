@@ -9,7 +9,7 @@ public class IncrementExample {
         x = x + 1; // take the value of x, which is 0 and add 1 --- > 0 + 1 --- > 1
         System.out.println(x + "\n");  // 1
 
-        // In Java there is a shorter way to write x+1 in two options: POST-INCREMENT and PRE-INCREMENT
+        // In Java, there is a shorter way to write x+1 in two options: POST-INCREMENT and PRE-INCREMENT
         // POST-INCREMENT
         x++;  // this will increase the value by 1 --- >  x = x + 1;  -- > 1 + 1 = 2
         System.out.println(x + "\n"); // 2

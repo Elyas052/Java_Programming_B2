@@ -1,6 +1,6 @@
 package day06_b_unary_operators;
 
-public class Shopoing {
+public class Shopping {
     public static void main(String[] args) {
 
         int numberOfItems = 0;

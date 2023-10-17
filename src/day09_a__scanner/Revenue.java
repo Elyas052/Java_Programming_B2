@@ -11,7 +11,7 @@ public class Revenue {
         // *) If I want to use a class from a different package, I need to import it
         // *) If I want to user anything from that class, I need to create the object of it.
 
-        Scanner input = new Scanner(System.in); // input --- >  is a reference to the object
+        Scanner input = new Scanner(System.in); // input --- > is a reference to the object
 
         System.out.print("\nEnter the price: $ ");
         double price = input.nextDouble();

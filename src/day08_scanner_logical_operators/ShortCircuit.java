@@ -21,11 +21,11 @@ public class ShortCircuit {
                ------------------------
                False || False --- > False
                False || True -- > True
-               True || False -- > True --- >  if the first part is True, 2nd part I do not care
-               True || True - > True   --- >  if the first part is True, 2nd part I do not care
+               True || False -- > True --- > if the first part is True, 2nd part I do not care
+               True || True - > True   --- > if the first part is True, 2nd part I do not care
 
                ****NOTE
-               IF we want still execute the 2nd EXPRESSION (2nd side), instead of &&, || --- >  we can use &, |
+               IF we want to still execute the 2nd EXPRESSION (2nd side), instead of &&, || --- >  we can use &, |
          */
 
         // System.out.println(5 / 0);

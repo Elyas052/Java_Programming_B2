@@ -7,7 +7,7 @@ public class Quote {
         System.out.println("I like ''Java'' programming");
         System.out.println("I like \'Java\' programming");
 
-        // Now I can print 2 backward slash?
+        // Now I can print two backward slashes?
         System.out.println("abc\\\\def\n");
 
         /*
@@ -19,7 +19,7 @@ public class Quote {
         System.out.println("\"This is a quote\"");
 
         /*
-            The first quote is before java printing the text
+            The first quote is before java printing the text,
             The second quote is to print the " quotation mark in the console
          */
 
@@ -27,11 +27,11 @@ public class Quote {
         System.out.println("abc\\def"); // this will print one backslash
 
         /*
-            The first backslash is for the syntax of escape characters
+            The first backslash is for the syntax of escape characters,
             The second backslash is for the backslash character to be output
          */
 
-        System.out.println("abc\\\\def"); // this will print two backslash
+        System.out.println("abc\\\\def"); // this will print two backslashes
         System.out.println("abc\\\"def");
         System.out.println("abc/def");
 

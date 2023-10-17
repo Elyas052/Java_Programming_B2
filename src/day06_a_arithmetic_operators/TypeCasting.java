@@ -5,13 +5,13 @@ public class TypeCasting {
 
         byte b = 40;
         int i = b;  // the byte value is automatically CONVERTED to int, because byte is smalled than int
-        // We are not changing the data type of b, we are changing the data type of the value we are assigning to i taking i from b
+        // We are not changing the data type of b, we are changing the data type of the value we are assigning to I'm taking i from b
 
         System.out.println(b);
         System.out.println(i + "\n");
 
         int i2 = 100;
-        byte b2 = (byte) i2;  // int is bigger than byte, so we MUST CAST it. We can the int type - i2 to a byte type using (byte)
+        byte b2 = (byte) i2;  // INT is bigger than byte, so we MUST CAST it. We can the int type - i2 to a byte type using (byte)
 
         System.out.println(i2);
         System.out.println(b2 + "\n");

@@ -6,7 +6,7 @@ public class Comments {
         // This line prints hello world to the console
         System.out.println("Hello World");
 
-        // Two slash is a single line comment
+        // Two slashes are a single line comment
 
         /*      I
                 Want

@@ -18,7 +18,7 @@ public class BasicCalculator {
         System.out.println(num1 + " / " + num2 + " = " + division);
         System.out.println(num1 + " % " + num2 + " = " + remainder);
 
-        // Parenthesis have higher in action.
+        // Parentheses have higher in action.
         System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
 
     }

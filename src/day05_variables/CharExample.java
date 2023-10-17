@@ -9,7 +9,6 @@ public class CharExample {
         char numberOne = '9';
         char specialOne = '$';
 
-        // sout
         System.out.println(letterOne);
         System.out.println(letterTwo);
         System.out.println(numberOne);

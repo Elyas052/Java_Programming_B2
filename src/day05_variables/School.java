@@ -10,7 +10,7 @@ public class School {
         int numberOfStudentsInGrade5 = 38;
 
         // How can I calculate the total number of students ?
-        // int totalNumberOfStudents =  31 + 40 + 26 + 10 + 38;
+        // int totalNumberOfStudents = 31 + 40 + 26 + 10 + 38;
         int totalNumberOfStudents = numberOfStudentsInGrade1 + numberOfStudentsInGrade2 + numberOfStudentsInGrade3 + numberOfStudentsInGrade4 + numberOfStudentsInGrade5;
 
         double numberOfDaysInAYear = 100.5;
