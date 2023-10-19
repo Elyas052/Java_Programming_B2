@@ -14,5 +14,6 @@ public class CheckHunger {
         } else {
             System.out.println("Great, go practice Java");
         }
+
     }
 }

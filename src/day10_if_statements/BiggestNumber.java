@@ -20,7 +20,7 @@ public class BiggestNumber {
             System.out.println(num2 + " is the biggest one");
         } else {
             System.out.println(num3 + " is the biggest one");
-
         }
+
     }
 }

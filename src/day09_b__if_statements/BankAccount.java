@@ -19,7 +19,7 @@ public class BankAccount {
             System.out.println("You owe us: " + balance);
         } else {
             System.out.println("Your new balance is $" + balance);
-
         }
+
     }
 }

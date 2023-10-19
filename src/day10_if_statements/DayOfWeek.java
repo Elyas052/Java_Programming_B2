@@ -26,7 +26,7 @@ public class DayOfWeek {
 
         System.out.println("---------------");
 
-        // Since we have multi SINGLE IF statement, no matter of the condition of each if statement, every single one will be checked separately
+        // Since we have multi-SINGLE IF statement, no matter of the condition of each if statement, every single one will be checked separately
         if (day == 1) {
             System.out.println("Monday");
         }

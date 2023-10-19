@@ -20,5 +20,6 @@ public class Temperature {
             System.out.println("It is too cold");
             System.out.println("Code more Java");
         }
+
     }
 }

@@ -21,7 +21,7 @@ public class IncrementExample {
         ++x; // this will increase the value by 1 --- >  x = x + 1;  -- > 3 + 1 = 4
         System.out.println(x + "\n");
 
-        // Q: Then what is the difference? Why do we two version?
+        // Q: Then what is the difference? Why do we two versions?
         System.out.println(++x + "\n"); // PRE-INCREMENT - it will update the x first and then print
 
         System.out.println(x++ + "\n"); // POST-INCREMENT - it prints first and then update the x

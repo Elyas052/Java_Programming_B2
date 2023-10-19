@@ -44,5 +44,6 @@ public class IfElseExample {
             System.out.println("This is not a normal party. It is a Java Party");
             System.out.println("Travel");
         }
+
     }
 }

@@ -51,7 +51,7 @@ public class DaysInMonth {
 
         int num = 0;
 
-        // The if conditions will be checked until the first true if statement is found, and the rest will skip if there is any
+        // The if conditions will be checked until the first true if a statement is found, and the rest will skip if there is any
         if (num > 3) {
             System.out.println("Bigger than 1");
         } else if (num > 2) {
