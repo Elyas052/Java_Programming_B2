@@ -11,7 +11,7 @@ public class Browser {
 
         String browser = input.nextLine(); // In case, we have multiple words
 
-        System.out.print("Enter your URL: ");  // URL --- >  it is a link in browser
+        System.out.print("Enter your URL: ");  // URL --- > it is a link in the browser
         String url = input.nextLine();
 
         int n = 4;

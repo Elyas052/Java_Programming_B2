@@ -32,7 +32,7 @@ public class SoccerGame {
                 System.out.println("Games cannot be longer than 90 minutes");
             }
 
-//            System.out.println(minutes < 0 ? "Minutes cannot be a negative number" : "Games cannot be longer than 90 minutes");
+//            System.out.println(minutes < 0 ? "Minutes cannot be a negative number": "Games cannot be longer than 90 minutes");
 
         }
     }

@@ -51,5 +51,6 @@ public class Calculator {
         } else {
             System.out.println(message);
         }
+
     }
 }

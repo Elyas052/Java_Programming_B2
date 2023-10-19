@@ -3,9 +3,9 @@ package day12_switch_statements;
 public class NumberWords {
     public static void main(String[] args) {
 
-        int n = 2; // Number must be between 1 and 5 (inclusive)
+        int n = 2; // The Number must be between one and five (inclusive)
 
-        // elf-if statement ---- Number must be between 1 and 5 (inclusive)
+        // elf-if statement ---- Number must be between one and five (inclusive)
         if (n == 1) {
             System.out.println("One");
         } else if (n == 2) {
@@ -22,11 +22,11 @@ public class NumberWords {
         System.out.println("----------------------");
 
         // switch statement
-        switch (n) {  //  char, byte, short, int, String  | It will not work with boolean expression - we need EXACT value |
+        switch (n) {  //  char, byte, short, int, String | It will not work with boolean expression - we need EXACT value |
             case 1:  // in if statement: ---- >  if (n == 1) {
                 System.out.println("One");
                 break;
-//            case 1:   // Exact values CANNOT be duplicate - this will give COMPILE ERROR
+//            case 1: // Exact values CANNOT be duplicate - this will give COMPILE ERROR
 //                System.out.println("Two");
 //                break;
             case 2:   // Exact values CANNOT be duplicate
@@ -47,7 +47,7 @@ public class NumberWords {
         System.out.println("-------------------------");
 
         // switch statement - does not care about the order of the cases or default if ALL OF THEM have the break; statement
-        switch (n) {  //  char, byte, short, int, String  | It will not work with boolean expression - we need EXACT value |
+        switch (n) {  //  char, byte, short, int, String | It will not work with boolean expression - we need EXACT value |
             case 3:
                 System.out.println("Three");
                 break;
@@ -71,7 +71,7 @@ public class NumberWords {
         System.out.println("-------------------------");
 
         // switch statement - does not care about the order of the cases or default if ALL OF THEM have the break; statement
-        switch (n) {  //  char, byte, short, int, String  | It will not work with boolean expression - we need EXACT value |
+        switch (n) {  //  char, byte, short, int, String | It will not work with boolean expression - we need EXACT value |
             case 3:
                 System.out.println("Three");
                 break;
@@ -92,7 +92,7 @@ public class NumberWords {
         System.out.println("-------------------------");
 
         // switch statement - does not care about the order of the cases or default if ALL OF THEM have the break; statement
-        switch (n) {  //  char, byte, short, int, String  | It will not work with boolean expression - we need EXACT value |
+        switch (n) {  //  char, byte, short, int, String | It will not work with boolean expression - we need EXACT value |
             case 3:
                 System.out.println("Three");
                 break;
@@ -112,7 +112,7 @@ public class NumberWords {
         System.out.println("-------------------------");
 
         // switch statement - does not care about the order of the cases or default if ALL OF THEM have the break; statement
-        switch (n) {  //  char, byte, short, int, String  | It will not work with boolean expression - we need EXACT value |
+        switch (n) {  //  char, byte, short, int, String | It will not work with boolean expression - we need EXACT value |
             case 2:
             case 3:  // in if statement: ---- >  if (n == 1) {
                 System.out.println("ONumber is equal ot 2 or 3");
@@ -128,7 +128,7 @@ public class NumberWords {
         System.out.println("-------------------------");
 
         // switch statement - does not care about the order of the cases or default if ALL OF THEM have the break; statement
-        switch (n) {  //  char, byte, short, int, String  | It will not work with boolean expression - we need EXACT value |
+        switch (n) {  //  char, byte, short, int, String | It will not work with boolean expression - we need EXACT value |
             case 2:
                 break;
             case 3:  // in if statement: ---- >  if (n == 1) {

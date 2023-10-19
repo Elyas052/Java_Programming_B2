@@ -24,7 +24,6 @@ public class FizzBuzz {
 
         System.out.println(result);
 
-
         System.out.println("-------");
 
         // This is made in this way just to explain else-if execution flow

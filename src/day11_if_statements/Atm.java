@@ -6,7 +6,7 @@ public class Atm {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("*** Welcome to ATM ***\nPlease Enter your card and then type your pincode");
+        System.out.println("*** Welcome to ATM ***\nPlease Enter your card and then type your pin code");
         int pincode = input.nextInt();
 
         int expectedPin = 2342;

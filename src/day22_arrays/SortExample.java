@@ -15,6 +15,7 @@ public class SortExample {
 
         // Find the min
         System.out.println(nums[0]);
+
         // Find the max
         System.out.println(nums[nums.length - 1]);
 

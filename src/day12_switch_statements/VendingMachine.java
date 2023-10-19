@@ -39,13 +39,13 @@ public class VendingMachine {
                 } else if (snackNUmber == 2) {
                     msg = "You have selected Turbo";
                 } else if (snackNUmber == 3) {
-                    msg = "You have selected Dirol";
+                    msg = "You have selected Di-rol";
                 } else {
                     msg = "invalid input";
                 }
                 break;
             case "Gum":
-                System.out.print("\nYour chose gums (click on 1, 2, 3): \n\t1) Love\n\t2) Turbo\n\t3) Dirol\n\nYour number");
+                System.out.print("\nYour chose gums (click on 1, 2, 3): \n\t1) Love\n\t2) Turbo\n\t3) Di-rol\n\nYour number");
                 int gumNUmber = input.nextInt();
 
                 if (gumNUmber == 1) {
@@ -53,7 +53,7 @@ public class VendingMachine {
                 } else if (gumNUmber == 2) {
                     msg = "You have selected Turbo";
                 } else if (gumNUmber == 3) {
-                    msg = "You have selected Dirol";
+                    msg = "You have selected Di-rol";
                 } else {
                     msg = "invalid input";
                 }

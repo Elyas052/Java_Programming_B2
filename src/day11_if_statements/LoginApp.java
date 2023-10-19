@@ -24,12 +24,12 @@ public class LoginApp {
             //System.out.println("\n\tAuthentication failed");
 
             if (enteredPinСod != myPinСod) {
-                message = message + "\t\tInvalid Pincode";
-                //System.out.println("\t\tInvalid Pincode");
+                message = message + "\t\tInvalid Pin code";
+                //System.out.println("\t\tInvalid Pin code");
             }
 
             if (enteredSSN != mySSN) {
-                message = message + "\t\tInvalid Pincode";
+                message = message + "\t\tInvalid Pin code";
                 //System.out.println("\t\tInvalid SSN");
             }
             System.out.println(message);

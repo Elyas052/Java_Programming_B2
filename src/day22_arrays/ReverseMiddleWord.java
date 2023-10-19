@@ -7,11 +7,11 @@ public class ReverseMiddleWord {
 
         String str = "Java always fun";
 
-        // can you reverse the middle word.
-        String words[] = str.split(" ");  //[Java, always, fun]
+        // Can you reverse the middle word?
+        String words[] = str.split(" ");  // [Java, always, fun]
 
-        System.out.println(words[1]);  // always
-
+        // Then we hold the middle word --> // always
+        System.out.println(words[1]);
 
         String midReverse = "";
         for (int i = words[1].length() - 1; i >= 0; i--) {
