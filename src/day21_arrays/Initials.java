@@ -1,7 +1,8 @@
 package day21_arrays;
 
 public class Initials {
-     /*
+
+     /**
     Initials
 • Given an array of classmate’s names, first name and last separated by a space, print the initials of everyone
     Ex: Input:

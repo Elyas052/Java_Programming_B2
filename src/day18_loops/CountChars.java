@@ -4,8 +4,8 @@ package day18_loops;
        input: 2juMp41EEkd4s4
 
        output
-            3 uppercase
-            6 lowercase
+            3 uppercases
+            6 lowercases
             5 numbers
 
  */

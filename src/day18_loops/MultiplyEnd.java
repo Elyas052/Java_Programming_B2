@@ -7,7 +7,8 @@ public class MultiplyEnd {
     /*
 Multiply End [String, Loops]
 
-    Given a String and a number return a String that has the ending character duplicated and attached by the number amount of times
+    Given a String and a number return a String that has the ending
+    character duplicated and attached by the number number of times
 
         Ex:
             Input:

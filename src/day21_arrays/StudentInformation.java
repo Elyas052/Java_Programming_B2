@@ -3,7 +3,7 @@ package day21_arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-/*
+/**
         0 - id
         1 - firstName
         2 - lastName

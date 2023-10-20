@@ -35,7 +35,7 @@ public class Store {
 
 
         // As a user to give you how many items are in stock,
-        // Then store those item names into a String array by asking item name to the user
+        // Then store those item names into a String array by asking item name to the user,
         // Then ask a user which item they are looking for.
         // If it exists, print --- > Item is in stock
         // if not, print --- > item is not in stock

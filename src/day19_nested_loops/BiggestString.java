@@ -1,6 +1,6 @@
 package day19_nested_loops;
 
-/*
+/**
     The Biggest substring of matching characters
     Given a String finds the biggest substring of chars that match and print it.
     Ex: aaabbbcccccddddee Output: ccccc

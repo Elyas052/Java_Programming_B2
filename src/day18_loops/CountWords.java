@@ -18,14 +18,14 @@ public class CountWords {
         System.out.print("Enter a sentence: ");
         String userSentence = input.nextLine().trim();
 
-        // This has multiple    words
+        // This has multiple words
         // 01234567890.......
         /*
             count words
                 - count spaces + 1
 
-            count space?
-                loop through all character and see how many there
+            Count space?
+                loop through all characters and see how many there
 
          */
         int countEmpty = 0;
