@@ -4,7 +4,7 @@ public class MethodChaining {
     public static void main(String[] args) {
 
         String str = "  java   ";
-        // I want to remove space and I want to make all UPPERCASE
+        // I want to remove space and I want to make all UPPERCASES
 
 
         //Here we just did two different method on a different reassignments

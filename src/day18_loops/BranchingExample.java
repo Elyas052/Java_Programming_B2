@@ -27,7 +27,8 @@ public class BranchingExample {
 
                 //System.out.println("Hello");  // This one here before break; is OK
                 break;
-                //System.out.println("Hello"); // Since anything after break is not going to be printed, we can not do statement here in the same body.
+                //System.out.println("Hello"); // Since anything after break is not going to be printed,
+                // we cannot do a statement here in the same body.
             }
 
             System.out.print(i + " ");

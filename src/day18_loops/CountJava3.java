@@ -32,10 +32,10 @@ public class CountJava3 {
         /*
                we did substring( i , i + 4) to read every four characters in the String
 
-               doing i + 4 causes the program to out of bounds
+               doing i + 4 causes the program to be out of bounds
 
-                so to fix it we tried i < str.length() - 4
-                but -4 skipped the last 4 characters in the String
+                so to fix it, we tried i < str.length() - 4
+                but -4 skipped the last four characters in the String
 
                 so either you had to do:
                     i <= str.length() - 4

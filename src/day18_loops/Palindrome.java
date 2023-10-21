@@ -14,7 +14,7 @@ public class Palindrome {
 
         // reading from beginning == reading from end
         // reading from beginning --- > original
-        // reading from end --- >  how can I get that word reversed?
+        // reading from an end --- > how can I get that word reversed?
 
         for (int i = original.length()-1;    i >= 0 ;       i--) {
             reversed += original.charAt(i); // a + v = av + a = ava + j = avaj

@@ -2,8 +2,8 @@ package day18_loops;
 
 public class BiggestSubstring {
     /*
-    Biggest substring of matching characters
-        Given a String find the biggest substring of chars that match and print it.
+    The Biggest substring of matching characters
+        Given a String finds the biggest substring of chars that match and print it.
         Ex: aaabbbcccccddddee Output: ccccc
      */
 
@@ -38,7 +38,7 @@ public class BiggestSubstring {
     look for each substring, which is repeating chars
         Ex: aaa
 
-       check next character to see if it is a different one
+       check next character to see if it is different
 
         check if it's the biggest substring
  */

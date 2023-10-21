@@ -3,14 +3,14 @@ package day21_arrays;
 import java.util.Arrays;
 
 public class ReverseArray {
-    /*
+
+    /**
 Reverse Array.
 Write a program that will reverse the order of any given array
 Ex: Input:
 [1, 2, 3, 4, 5]
 Output:
 [5, 4, 3, 2, 1]
-
  */
     public static void main(String[] args) {
 

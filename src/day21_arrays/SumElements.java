@@ -1,6 +1,6 @@
 package day21_arrays;
 
-/*
+/**
     declare and assign number values to the array
         {3, 5, 7, 8}
 

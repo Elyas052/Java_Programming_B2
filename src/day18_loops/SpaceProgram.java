@@ -7,8 +7,8 @@ public class SpaceProgram {
     /*
     Space program [String, Loops]
 
-    Given a String return a version of with spaces between all of the letters.
-    If there is already a space in the String put an underscore
+    Given a String return a version of with spaces between all the letters.
+    If there is already a space in the String, put an underscore
 
         Ex: java	-> j a v a
             space 	-> s p a c e

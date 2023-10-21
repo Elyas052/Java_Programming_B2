@@ -1,6 +1,6 @@
 package day21_arrays;
 
-/*
+/**
     Ask a user to enter a month number, then print the Name of that months
         Input:  1
         Output: January

@@ -9,7 +9,7 @@ public class CreateId {
 
     Given a first name and last name create and return an id using the following format:
 	the first letter of the first name as lowercase,
-	the first 3 letters of the last name with the first letter as uppercase and the rest lowercase,
+	the first three letters of the last name with the first letter as uppercase and the rest lowercase,
 	the length of the first String multiplied by 2
 
 	first name: john
