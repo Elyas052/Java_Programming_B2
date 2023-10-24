@@ -1,10 +1,10 @@
 package day24_methods;
 
 /*
-    Imagine you have String 2D array which has size of 3 and each array has 3 elements
+    Imagine you have a String 2D array which has a size of 3 and each array has 3 elements
         these are the values:   apple, pear, bread
                                 butter, water, juice
-                                knofe, spoon, fork
+                                knife, spoon, fork
 
         String [][] words = new String [3][3];
         String [][] words = {
@@ -13,10 +13,10 @@ package day24_methods;
                     { "knife", "spoon", "fork"}
                 };
 
-        get the last character of each word and print them.
-            first I need to loop through 2D array to get each array
+        Get the last character of each word and print them.
+            First, I need to loop through 2D array to get each array
                 loop through each array to get each word
-                    get the last character of each word
+                    to get the last character of each word
 
 
  */

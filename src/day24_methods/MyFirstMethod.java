@@ -4,11 +4,11 @@ import java.util.Arrays;
 
 public class MyFirstMethod {
 
-    public static void helloWorld() { // void method: DOES the action. DOES NOT RETURN anything back.
+    public static void helloWorld() { // void method: DOES the action. DOES NOT RETURN anything.
         System.out.println("Hello World!");
     }
 
-//    // In the same class we can NOT have two same method names with exact same parenthesis
+//    // In the same class, we cannot have two same method names with the exact same parenthesis
 //    public static void helloWorld (){
 //    }
 

@@ -6,7 +6,7 @@ public class Anagram {
     public static void main(String[] args) {
 
         //Palindrome - if the word is same from beginning and end
-        //Anagram - if the 2 words has the same letters
+        //Anagram - if the 2 words have the same letters
 
         String str1 = "loop"; // [l o o p]
         String str2 = "pool"; // [l o o p]
