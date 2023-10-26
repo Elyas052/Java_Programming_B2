@@ -18,4 +18,5 @@ public class VoidVsReturn {
     public static String bye() {
         return "Bye";
     }
+
 }

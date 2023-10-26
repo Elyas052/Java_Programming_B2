@@ -33,6 +33,6 @@ public class MethodWithOthers {
     }
 
     public static void main(String[] args) {
-        System.out.println(dayInWords(1));
+        System.out.println(dayInWords(4));
     }
 }

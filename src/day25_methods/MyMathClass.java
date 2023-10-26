@@ -15,7 +15,7 @@ public class MyMathClass {
     }
 
     public static void divide(int num1, int num2) {
-        // you can handle the divisible by 0 error with if condition
+        // You can handle the divisible by 0 --> error with if condition
         System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
     }
 

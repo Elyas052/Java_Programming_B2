@@ -24,5 +24,6 @@ public class Email {
         //                          W                  _Pooh
         String email = ("" + fullName.charAt(0) + fullName.substring(fullName.indexOf(" ") + 1) + "@" + domain + ".com").toLowerCase();
         System.out.println(email);
+
     }
 }

@@ -36,5 +36,6 @@ public class CurrencyConverter {
 
         double convertedAmount = convert("RUPEE", 100.0);
         System.out.println("With " + convertedAmount + " you can buy somethings. ");
+
     }
 }

@@ -2,7 +2,7 @@ package day25_methods;
 
 public class Car {
 
-    // create a method then unlocks the door
+    // Create a method then unlocks the door.
     public static void unlockCar() {  // non-parameterized void method - > meaning nothing inside parenthesis
         System.out.println("Unlocking the car.");
     }
@@ -32,7 +32,7 @@ public class Car {
         System.out.println("Starting the car");
     }
 
-    // I am in a hurry. So, we need to do only a few methods
+    // I am in a hurry. So, we need to do only a few methods.
     public static void driveInRush() {
         unlockCar(); // Calling a method. - This is not a method declaration.
         sitInCar();
@@ -42,8 +42,7 @@ public class Car {
 
     public static void main(String[] args) {
 
-        unlockCar();  // calling a method. - THis is not a method declaration.
-        //unlockCar();
+        unlockCar();  // Calling a method. - This is not a method declaration.
         openDoor();
         sitInCar();
         startCar();
