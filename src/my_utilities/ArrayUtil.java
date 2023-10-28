@@ -1,5 +1,7 @@
 package my_utilities;
 
+import java.util.Arrays;
+
 public class ArrayUtil {
 
     public static int sumOfArray(int[] arr) {
@@ -48,5 +50,38 @@ public class ArrayUtil {
             }
         }
         return false;
+    }
+
+    public static int indexOf(int[] numArr, int num) {
+        for (int i = 0; i < numArr.length; i++) {
+            if (numArr[i] == num) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public static int indexOf(String[] str, String word) {
+        for (int i = 0; i < str.length; i++) {
+            if (str[i].equals(word)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public static int[] addElementInArr(int[] originalArr, int num) {
+        int[] newArr = Arrays.copyOf(originalArr, originalArr.length + 1); // [1, 3, 5, 2, 123, 234, _ ]
+        newArr[newArr.length - 1] = num;
+        return newArr;
+    }
+
+    public static String[] addElementInArr(String[] originalArr, String str) {
+        String[] newArr = new String[originalArr.length + 1];
+        for (int i = 0; i < originalArr.length; i++) {
+            newArr[i] = originalArr[i];
+        }
+        newArr[newArr.length - 1] = str;
+        return newArr;
     }
 }
