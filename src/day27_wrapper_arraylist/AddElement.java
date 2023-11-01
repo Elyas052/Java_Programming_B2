@@ -11,7 +11,7 @@ public class AddElement {
         System.out.println(   Arrays.toString(   addElementInArr(arr, num)   )   );
 
         System.out.println("---------------------------");
-        String [] words = {"loop", "array", "methods", "softskills"};
+        String [] words = {"loop", "array", "methods", "soft skills"};
         System.out.println( Arrays.toString(  words  ));
 
         String [] updatedWords = addElementInArr( words, "database");

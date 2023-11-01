@@ -11,7 +11,7 @@ public class Classroom {
         group.add("Iryna");
         group.add("Majd");
         group.add("Oleksandr");
-        group.add("Ievgeniia");
+        group.add("Evgenia");
         group.add("Aslan");
 
         System.out.println(group);

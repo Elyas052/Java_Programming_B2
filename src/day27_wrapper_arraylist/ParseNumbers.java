@@ -11,20 +11,20 @@ public class ParseNumbers {
         Integer year2 = 2023;  // Autoboxing from - > int - > Integer
         Integer year3 = year1; // Autoboxing from - > int - > Integer
 
-        System.out.println("Current year: " + year1);  // 2024
+        System.out.println("Current year: " + year1);  // 2023
         System.out.println("Next year: " + (year1 + 1));  // 2024
 
         System.out.println("------------------");
 
-        System.out.println("Current year: " + strYear);  // 20231
+        System.out.println("Current year: " + strYear);  // 2023
         System.out.println("Next year: " + (strYear + 1));  // 20231
 
         System.out.println("------------------");
 
         // Convert a String number into int
         int numYear = Integer.parseInt(strYear); // String --- > int
-        System.out.println("Current year: " + numYear);  // 20231
-        System.out.println("Next year: " + (numYear + 1));  // 20231
+        System.out.println("Current year: " + numYear);  // 2023
+        System.out.println("Next year: " + (numYear + 1));  // 2024
 
 
         //System.out.println("------------------");

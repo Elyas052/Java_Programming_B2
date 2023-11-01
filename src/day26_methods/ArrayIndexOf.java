@@ -13,9 +13,9 @@ public class ArrayIndexOf {
         System.out.println(indexOf(words, "hello"));
     }
 
-    public static int indexOf(String[] strs, String element) {
-        for (int i = 0; i < strs.length; i++) {
-            if (strs[i].equals(element)) {
+    public static int indexOf(String[] str, String element) {
+        for (int i = 0; i < str.length; i++) {
+            if (str[i].equals(element)) {
                 return i;
             }
         }
@@ -23,10 +23,10 @@ public class ArrayIndexOf {
         return -1;
     }
 
-    public static int indexOf(int[] nums, int element) {
+    public static int indexOf(int[] num, int element) {
 
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == element) {
+        for (int i = 0; i < num.length; i++) {
+            if (num[i] == element) {
                 return i;
             }
         }

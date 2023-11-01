@@ -14,7 +14,7 @@ public class ValueVSParse {
             Integer.valueOf(s);  --> converts the "30" String into the Integer Object
             int i2 = --> im trying to store the value into a primitive variable
 
-            primitive = object type  [ unboxing ]
+            primitive = object type [ unboxing ]
          */
 
         Integer i3 = Integer.parseInt(s);
