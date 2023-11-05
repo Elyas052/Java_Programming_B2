@@ -5,7 +5,7 @@ public class StringMethods {
 
         String name = "james";
 
-        // how to compare String values --> use .equals()
+        // How to compare String values --> use .equals()
         System.out.println(name.equals("james"));
 
         System.out.println("cat".equals("dog"));

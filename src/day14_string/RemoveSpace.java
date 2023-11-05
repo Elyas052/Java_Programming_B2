@@ -14,7 +14,7 @@ public class RemoveSpace {
 
         String str = "     java is fun    ";
         System.out.println(str.startsWith("java"));
-//        System.out.println(str.trim());
+//      System.out.println(str.trim());
         str = str.trim();
         System.out.println(str.startsWith("java"));
 

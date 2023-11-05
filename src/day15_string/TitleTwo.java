@@ -27,5 +27,6 @@ public class TitleTwo {
         } else {
             System.out.println("No Senior or Junior");
         }
+
     }
 }
