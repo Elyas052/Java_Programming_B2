@@ -8,6 +8,7 @@ public class LeapYear {
         Scanner input = new Scanner (System.in);
 
         System.out.println("Enter a year: ");
+
         /*
         int year = input.nextInt();
         boolean isLeapYear = year % 4 == 0;

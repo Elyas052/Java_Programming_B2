@@ -4,7 +4,7 @@ public class SingleIfExamples {
     public static void main(String[] args) {
 
         if (false) {
-            // since out condition False, the body of the if statement (code block of an if statement) is skipped
+            // Since out condition False, the body of the if statement (code block of an if statement) is skipped
             System.out.println("Hello World!");
         }
 
@@ -34,7 +34,7 @@ public class SingleIfExamples {
             System.out.println("When you study put your mask on");
         }
 
-        // any single if a statement does NOT depend on another statement
+        // Any single if a statement does NOT depend on another statement
         if (!isLockdown) {
             System.out.println("Party");
             System.out.println("This is not a normal party. It is a Java Party");

@@ -3,7 +3,7 @@ package day10_if_statements;
 public class DaysInMonth {
     public static void main(String[] args) {
 
-        int month = 1; // 1- January
+        int month = 1; // 1 - January
 
         boolean is31 = month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12;
         boolean is30 = month == 4 || month == 6 || month == 9 || month == 11;

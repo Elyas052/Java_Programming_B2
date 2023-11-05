@@ -11,7 +11,7 @@ public class SoccerGame {
         int minutes = input.nextInt();
 
         if(minutes >= 0 && minutes <= 90){
-            // positive flow or true outcome
+            // Positive flow or true outcome
 
             if(minutes >= 75){ // if(minutes >= 75 && minutes <= 90)
                 System.out.println("Game just getting started");
@@ -24,7 +24,7 @@ public class SoccerGame {
             }
 
         } else {
-            // negative or false outcome
+            // Negative or false outcome
 
             if(minutes < 0){
                 System.out.println("Minutes cannot be a negative number");

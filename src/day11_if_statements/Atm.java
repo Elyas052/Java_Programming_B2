@@ -7,11 +7,11 @@ public class Atm {
         Scanner input = new Scanner(System.in);
 
         System.out.println("*** Welcome to ATM ***\nPlease Enter your card and then type your pin code");
-        int pincode = input.nextInt();
+        int pinCode = input.nextInt();
 
         int expectedPin = 2342;
 
-        if(pincode == expectedPin){
+        if(pinCode == expectedPin){
 
             System.out.println("Logged in");
             System.out.println("Select a number");

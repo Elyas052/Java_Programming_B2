@@ -70,12 +70,12 @@ public class NumberWords {
 
         System.out.println("-------------------------");
 
-        // switch statement - does not care about the order of the cases or default if ALL OF THEM have the break; statement
+        // Switch statement - does not care about the order of the cases or default if ALL OF THEM have the break; statement
         switch (n) {  //  char, byte, short, int, String | It will not work with boolean expression - we need EXACT value |
             case 3:
                 System.out.println("Three");
                 break;
-            case 1:  // in if statement: ---- >  if (n == 1) {
+            case 1:  // In if statement: ---- >  if (n == 1) {
                 System.out.println("One");
                 break;
             case 2:   // Exact values CANNOT be duplicate
@@ -91,7 +91,7 @@ public class NumberWords {
 
         System.out.println("-------------------------");
 
-        // switch statement - does not care about the order of the cases or default if ALL OF THEM have the break; statement
+        // Switch statement - does not care about the order of the cases or default if ALL OF THEM have the break; statement
         switch (n) {  //  char, byte, short, int, String | It will not work with boolean expression - we need EXACT value |
             case 3:
                 System.out.println("Three");
@@ -111,7 +111,7 @@ public class NumberWords {
 
         System.out.println("-------------------------");
 
-        // switch statement - does not care about the order of the cases or default if ALL OF THEM have the break; statement
+        // Switch statement - does not care about the order of the cases or default if ALL OF THEM have the break; statement
         switch (n) {  //  char, byte, short, int, String | It will not work with boolean expression - we need EXACT value |
             case 2:
             case 3:  // in if statement: ---- >  if (n == 1) {
@@ -127,7 +127,7 @@ public class NumberWords {
 
         System.out.println("-------------------------");
 
-        // switch statement - does not care about the order of the cases or default if ALL OF THEM have the break; statement
+        // Switch statement - does not care about the order of the cases or default if ALL OF THEM have the break; statement
         switch (n) {  //  char, byte, short, int, String | It will not work with boolean expression - we need EXACT value |
             case 2:
                 break;

@@ -12,7 +12,7 @@ public class TernaryExample {
             evenOrOdd = "Odd";
         }
 
-        // In Java, there is shorter SYNTAX version of if else
+        // In Java, there is a shorter SYNTAX version of if else
         evenOrOdd = (a % 2 == 0) ? "Even" : "Odd";
         /*
                      (a % 2 == 0)   ------ > condition
@@ -21,7 +21,7 @@ public class TernaryExample {
                      :              ------ > else
                      "Odd"          ------ > second value is always for FALSE
 
-                     firstValue and secondValue HAS TO BE SAME DATA TYPE
+                     firstValue and secondValue HAVE TO BE the SAME DATA TYPE
          */
 
         int num = 4;
@@ -36,14 +36,14 @@ public class TernaryExample {
                         (condition) ? trueValue1;
          */
 
-        // This is same as the one above.
+        // This is the same as the one above.
         if (number > 0) {
             sign = "positive";
         } else {
             if (number < 0) {
                 sign = "negative";
             } else {
-                sign = "zeor";
+                sign = "zero";
             }
         }
 

@@ -6,7 +6,7 @@ public class OperatorPractice3 {
         int h = 5; // I declared an int variable called h and assign value 5 to it.
         int p = h; // I declared an int variable called p and assigned a value from variable h
 
-        h++;  // post-increment - no other code | increase by 1
+        h++;  // Post-increment - no other code | increase by 1
         System.out.println("h: " + h); //Output: 6
         System.out.println("p: " + p); //Output: 5
 

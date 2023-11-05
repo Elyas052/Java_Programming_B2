@@ -23,7 +23,7 @@ public class Retake {
             grade *= 0.65;
         } else {
             System.out.println("Not valid attempt number");
-            // if you do it by assigning true by default, then here you would use validAttempts = false;
+            // If you do it by assigning true by default, then here you would use validAttempts = false;
         }
 
         if(validAttempts) {

@@ -11,7 +11,7 @@ public class TabAndNextLine {
         System.out.println("\t\t\t\texample");
         System.out.println("example");
 
-        // examples of next lines
+        // Examples of next lines
         System.out.println();
         System.out.println("1) Go to store");
         System.out.println("2) grab milk");
