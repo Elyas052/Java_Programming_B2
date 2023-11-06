@@ -30,7 +30,7 @@ public class CountChars {
 
             char eachLetter = str.charAt(i); // get the character at the index number i
 
-            //if character is uppercase -- eachLetter >= 'A' && eachLetter <= 'Z'
+            // If character is uppercase -- eachLetter >= 'A' && eachLetter <= 'Z'
             if (eachLetter >= 'A' && eachLetter <= 'Z') {
                 countUpper++;
             } else if (eachLetter >= 'a' && eachLetter <= 'z') {
@@ -43,7 +43,7 @@ public class CountChars {
 
         }
 
-        // THe purpose of the loop was to check every character and see if it is uppercase, lowercase, number or special character.
+        // The purpose of the loop was to check every character and see if it is uppercase, lowercase, number or special character.
         // Once the loop finished, then I am printing out the updated counters for each.
 
 
@@ -66,7 +66,7 @@ public class CountChars {
 
             //char eachLetter = str.charAt(i); // get the character at the index number i
 
-            //if character is uppercase -- eachLetter >= 'A' && eachLetter <= 'Z'
+            // If character is uppercase -- eachLetter >= 'A' && eachLetter <= 'Z'
             if (Character.isUpperCase(str.charAt(i))) {
                 countUpperChar++;
             } else if (Character.isLowerCase(str.charAt(i))) {

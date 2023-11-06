@@ -5,7 +5,7 @@ public class Palindrome {
 
         String str = "abcde";
 
-        // reverse the String
+        // Reverse the String
 
         String reverse = "";
 

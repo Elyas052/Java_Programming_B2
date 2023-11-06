@@ -10,9 +10,10 @@ public class MinAndMax {
 
         int highest = -2147483648; // The reason I gave the smallest value to the 'highest' container is because if user gives me bigger value than what it is now, so, I can re-assign it
         int lowest = 2147483647;  // The reason I gave the biggest value to the 'lowest' container is because if user gives me smalled value than what it is now, so, I can re-assign it
+
         /*
-            if userInput > highest --- > { highest = userInput } ---- >  highest = 100 | 100 | 100
-            if userInput < lowest ---- > { lowest = userInput }  ---- >  lowest = 10  |  10  | 5
+            If userInput > highest --- > { highest = userInput } ---- >  highest = 100 | 100 | 100
+            If userInput < lowest ---- > { lowest = userInput }  ---- >  lowest = 10  |  10  | 5
          */
 
         int counter = 1;
