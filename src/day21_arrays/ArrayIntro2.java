@@ -1,6 +1,6 @@
 package day21_arrays;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class ArrayIntro2 {
     public static void main(String[] args) {
@@ -26,7 +26,9 @@ public class ArrayIntro2 {
         arr[2] = 200.0;  // We RE-ASSIGNED the value at index 2
         System.out.println(Arrays.toString(arr));
 
-        arr = new double[4]; //This creates a new array with four elements
+        //This creates a new array with four elements
+        arr = new double[4];
+
         // And arr references to the new object
         System.out.println(Arrays.toString(arr));
         System.out.println(arr[1]);

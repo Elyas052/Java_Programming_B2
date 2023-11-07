@@ -6,7 +6,7 @@ public class Apartment {
 
         Scanner input = new Scanner(System.in);
 
-        String address, nameOfOwner, ownersPhoneNumber, allInfo;
+        String address, nameOfOwner, ownerPhoneNumber, allInfo;
         int numberOfUnits, numberOfWasherAndDryer, lengthOfLease, totalNumberOfResidents, numberOfFloors, numberOfParkingSpots;
         double avgSizeOfUnit, monthlyRent, numberOfStars;
         boolean allowsPets, hasPool, nearGasStation, hasBasement, unitsAvailable, hasAirConditioning, wheelChairAccessibility;
@@ -20,8 +20,8 @@ public class Apartment {
         allInfo += "\nName of Owner: " + nameOfOwner;
 
         System.out.println("Please enter " + nameOfOwner + "'s phone number");
-        ownersPhoneNumber = input.nextLine();
-        allInfo += "\n" + nameOfOwner + "'s phone number: " + ownersPhoneNumber;
+        ownerPhoneNumber = input.nextLine();
+        allInfo += "\n" + nameOfOwner + "'s phone number: " + ownerPhoneNumber;
 
         System.out.println("Please enter the number of units");
         numberOfUnits = input.nextInt();

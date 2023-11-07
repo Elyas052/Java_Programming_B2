@@ -1,11 +1,9 @@
 package day21_arrays;
 
 /**
-    declare and assign number values to the array
-        {3, 5, 7, 8}
-
-        sum up all the values and print the total: 23
-
+ * Declare and assign number values to the array {3, 5, 7, 8}
+ * <p>
+ * Sum up all the values and print the total: 23
  */
 
 public class SumElements {

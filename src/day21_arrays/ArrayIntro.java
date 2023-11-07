@@ -1,6 +1,6 @@
 package day21_arrays;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class ArrayIntro {
     public static void main(String[] args) {
@@ -24,11 +24,14 @@ public class ArrayIntro {
 
         System.out.println("All cities: " + cities2[0] + ", " + cities2[1] + ", " + cities2[2] + ", " + cities2[3]);
 
-        //System.out.println(cities2[4]);  // Since we do not have the 4th index, it will give an EXCEPTION: ArrayIndexOutOfBoundsException
+        //System.out.println(cities2[4]);  // Since we do not have the 4th index,
+        // it will give an EXCEPTION: ArrayIndexOutOfBoundsException
 
         // How to print an Array
         System.out.println(cities2); // This does not print the array how we want. It just shows the hashcode
-        System.out.println(Arrays.toString(cities2)); // .toString(arrayName) from Arrays class, lets us print the array fully with [ ]
+
+        // .toString(arrayName) from Arrays class, lets us print the array fully with [ ]
+        System.out.println(Arrays.toString(cities2));
 
         // How to get the count of the elements in the array
         // Similar to String we have a method for that. --- > String str = "loop"; --- > str.length()

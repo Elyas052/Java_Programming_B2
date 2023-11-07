@@ -12,5 +12,6 @@ public class Discount {
                 (isTeacher || isPoliceOfficer || isFireFighter);
 
         System.out.println(getDiscount);
+
     }
 }

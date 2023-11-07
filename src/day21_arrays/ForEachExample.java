@@ -1,5 +1,7 @@
 package day21_arrays;
 
+import java.util.*;
+
 public class ForEachExample {
     public static void main(String[] args) {
 
@@ -9,17 +11,19 @@ public class ForEachExample {
             System.out.println("Traditional fori loop: " + nums[i]);
         }
 
-        System.out.println();
+        System.out.println("------------------------------------");
 
         // For each loop:
         // {30, 12, 150, 12};
         for (int each : nums) { // 1st cycle -> int each = 30  |  2nd cycle - > int each = 12 .......
 
             System.out.println("ForEach loop: " + each);
-            // Change the value of the 3rd element in an array
+            // Change the value of the 3rd element in an array.
         }
 
-        // It is better to usi FORI if we need to work with INDEX
+        System.out.println("------------------------------------");
+
+        // It is better for us FORI if we need to work with INDEX.
         for (int i = 0; i < nums.length; i++) {
 
             if (i == 2) {
@@ -27,15 +31,20 @@ public class ForEachExample {
             }
         }
 
+        System.out.println(Arrays.toString(nums));
+
         System.out.println("------------------------------------");
+
         String[] classes = {"java", "soft skills", "api", "db", "selenium"};
 
-        // If I want to use foreach loop
+        // If I want to use foreach loop.
         for (String eachElem : classes) {
             System.out.println("For Each Loop: " + eachElem);
         }
 
-        // Traditional
+        System.out.println("------------------------------------");
+
+        // Traditional.
         for (int i = 0; i < classes.length; i++) {
             System.out.println("Traditional: " + classes[i]);
         }

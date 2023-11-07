@@ -7,11 +7,11 @@ public class Plan {
         System.out.println("Get into Group Studies");
         System.out.println("Get life rich");
 
-        /*  todo: - Create today's package: day03_comments_escape_sequence
+        /*  TODO: - Create today's package: day03_comments_escape_sequence
          - Create a new class in today's package: Goals
          - Create a main method
          - Using print statements print out 3 different goals you have for yourself in this course.
-         Print each on a different line make main method then make print statements
+         Print each on a different line make the main method then make print statements
         */
 
         System.out.println("Make everyone love java");
