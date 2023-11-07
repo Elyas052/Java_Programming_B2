@@ -1,14 +1,14 @@
 package day22_arrays;
 
-/*
-           [IQ] Longest Palindrome
-                Given a String array. Find the longest Palindrome String in your array.
-                Ex:
-                Input: [“java”, “longer word”, “civic” “apple”, “racecar”, “mom”, “anna”]
-                Output: racecar
-                Ex:
-                Input: [“abc”, “dna”, “kevin”, “joe”, “lamp”]
-                Output: No palindrome
+/**
+ * [IQ] Longest Palindrome
+ * Given a String array. Find the longest Palindrome String in your array.
+ * Ex:
+ * Input: [“java”, “longer word”, “civic” “apple”, “racecar”, “mom”, “anna”]
+ * Output: racecar
+ * Ex:
+ * Input: [“abc”, “dna”, “kevin”, “joe”, “lamp”]
+ * Output: No palindrome
  */
 
 public class LongestPalindrome {
@@ -18,10 +18,10 @@ public class LongestPalindrome {
         String[] arr = {"java", "longer word", "civic", "apple", "racecar", "mom", "anna"};
         String longestPalindrome = "";
 
-        // I need to loop through to get each of them
-        // Then reverse
-        // Next compare if them match
-        // Then compare which one is longest
+        // I need to loop through to get each of them.
+        // Then reverse.
+        // Next, compare if them match.
+        // Then compare which one is longest.
 
         // With this OUTER loop, I am getting each element of the arrays.
         for (int i = 0; i < arr.length; i++) {
@@ -46,7 +46,7 @@ public class LongestPalindrome {
                 // If it's PALINDROME, I am comparing the length of the longestPalindrome with the eachWord.
                 if (eachWord.length() > longestPalindrome.length()) {
 
-                    // if eachWord length is bigger, then re-assign it to the longestPalindrome.
+                    // If eachWord length is bigger, then re-assign it to the longestPalindrome.
                     longestPalindrome = eachWord;
                 }
 

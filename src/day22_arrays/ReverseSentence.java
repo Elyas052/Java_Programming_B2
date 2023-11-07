@@ -1,10 +1,11 @@
 package day22_arrays;
 
-/*
-        today is java
-
-        java is today
+/**
+ * today is java
+ * <p>
+ * java is today
  */
+
 public class ReverseSentence {
     public static void main(String[] args) {
 
@@ -21,7 +22,7 @@ public class ReverseSentence {
 
         System.out.println("--------------------");
 
-        // Return reverse sentence
+        // Return reverse sentence.
         String result = "";
         for (int i = words.length - 1; i >= 0; i--) {
 

@@ -13,10 +13,10 @@ public class SortExample {
         Arrays.sort(nums); // [3, 5, 7, 8, 23, 23, 3243]
         System.out.println(Arrays.toString(nums));
 
-        // Find the min
+        // Find the min.
         System.out.println(nums[0]);
 
-        // Find the max
+        // Find the max.
         System.out.println(nums[nums.length - 1]);
 
     }

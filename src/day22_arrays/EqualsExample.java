@@ -9,9 +9,9 @@ public class EqualsExample {
         int [] b = {1, 2, 3};
         int [] c = a;
 
-        System.out.println(a == b); // compares the a array with the b array, they are different objects -- not the same
+        System.out.println(a == b); // compares an array with the b array, they are different objects -- not the same
         System.out.println(Arrays.equals(a,b));
-        System.out.println(a == c); // compares the a array with the c array, they are both reference to the same array object
+        System.out.println(a == c); // compares an array with the c array, they are both reference to the same array object
         //System.out.println(a.equals(b)); This method is not Arrays.equals()
 
         boolean same = Arrays.equals(a, b);
