@@ -6,9 +6,9 @@ public class AWS {
         String zones = "us-east1, us-west1, us-south1, us-north1";
         String app = "Etsy";
 
-        // Required To be Output: "$app is deploying on $us-east1"
+        // Required To be Output: "Etsy is deploying on us-east1"
 
-        // I need to first get each zone - I can use .split method to separate each zone and store all of them into an array
+        // I need to first get each zone - I can use .split method to separate each zone and store all of them into an array.
         String[] zoneArr = zones.split(", ");  //["us-east1", "us-west1", .......] -- > size: 4
 
 
@@ -20,7 +20,7 @@ public class AWS {
         System.out.println("----------------");
 
 
-        // With traditional loop / fori loop
+        // With traditional loop / fori loop.
         for (int i = 0; i < zoneArr.length; i++) {
             System.out.println(app + " is deploying on " + zoneArr[i]);
         }
