@@ -42,7 +42,7 @@ public class Car {
 
     public static void main(String[] args) {
 
-        unlockCar();  // Calling a method. - This is not a method declaration.
+        unlockCar();  // Calling a method --> This is not a method declaration.
         openDoor();
         sitInCar();
         startCar();

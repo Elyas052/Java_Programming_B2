@@ -51,9 +51,9 @@ public class Groups {
 
         System.out.println();
 
-        for (String[] eachArray : groups) {  // OUTER LOOP: cycles through 2D array, get each array
+        for (String[] eachArray : groups) {  // OUTER LOOP: cycles through 2D array, get each array.
 
-            for (String eachName : eachArray) {  // INNER LOOP: cycles through each array, get each value
+            for (String eachName : eachArray) {  // INNER LOOP: cycles through each array, get each value.
 
                 System.out.println(eachName);
 

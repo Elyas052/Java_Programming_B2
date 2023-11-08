@@ -3,7 +3,7 @@ package day25_methods;
 public class CreditScore {
     public static void main(String[] args) {
         getCreditScore(); // The value is not being used.
-        int score = getCreditScore();  // The value is being stored into score variable
+        int score = getCreditScore();  // The value is being stored into score variable.
         System.out.println(score); // Score variable is being used in a print statement.
         System.out.println(getCreditScore());
         System.out.println(getCreditScore() + 50);
