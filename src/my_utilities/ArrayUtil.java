@@ -40,7 +40,7 @@ public class ArrayUtil {
     /**
      * This method accepts an int array and an int numb
      * Then check if the number is in the array
-     * If yes, return true, otherwise return false
+     * If yes, return true, otherwise return false.
      */
     public static boolean containsInArray(int[] arr, int num) {
         // [1, 3, 45, 57, 54, 57]  - 57

@@ -39,7 +39,7 @@ public class Picture {
         System.out.println("Drawing with " + color + " in size of " + size);
     }
 
-    // Type promotion: If the method exists with the matching data type, it call that one.
+    // Type promotion: If the method exists with the matching data type, it calls that one.
     // If it does not exist, it will check the one higher one.
     // int > long > float > double
     public static void test(double d) {

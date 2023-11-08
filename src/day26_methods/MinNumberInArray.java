@@ -8,7 +8,7 @@ public class MinNumberInArray {
         int[] arr = {1, 45, 23, -10, 56, 87, 56};
     }
 
-    //Create a method that finds a minimum number in the array and returns that.
+    // Create a method that finds a minimum number in the array and returns that.
     public static int minInArray1(int[] arr) {
         Arrays.sort(arr);
         return arr[0];

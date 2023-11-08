@@ -1,11 +1,11 @@
 package day26_methods;
 
-/*
-    Create a method that accepts a string and a character.
-    Then check how many times that character appears in that String.
-    Then return total number of times.
-    Ex:    apple, p -- > 2class name then method name
-    Ex:    apple, c -- > 0
+/**
+ * Create a method that accepts a string and a character.
+ * Then check how many times that character appears in that String.
+ * Then return total number of times.
+ * Ex:    apple, p -- > 2class name then method name
+ * Ex:    apple, c -- > 0
  */
 
 public class FrequencyOfCharacters {
@@ -23,7 +23,6 @@ public class FrequencyOfCharacters {
                 count++;
             }
         }
-
         return count;
     }
 }

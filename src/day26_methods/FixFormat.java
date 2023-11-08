@@ -1,9 +1,9 @@
 package day26_methods;
 
-/*
-    Create a method that accepts a name, make it in correct format
-    Ex:     toM --- > Tom
-    WINNIE - > Winnie
+/**
+ * Create a method that accepts a name, make it in correct format
+ * Ex:     toM --- > Tom
+ * WINNIE - > Winnie
  */
 
 public class FixFormat {
