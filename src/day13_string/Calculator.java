@@ -44,7 +44,7 @@ public class Calculator {
                 break;
         }
 
-        //if (if default is run, do not run this if statement)
+        // If (if default is run, do not run this if statement)
         // (operator equals + || operator equals - || operator equals * || .............) ---- >  this will work as well.
         if (runOrNotRun) {
             System.out.println("\nYou entered numbers which are " + num1 + " and " + num2 + "\nWith the " + operator + " operator you selected, the result is: " + result);

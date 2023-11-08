@@ -15,6 +15,7 @@ public class Contains {
         System.out.println(day.contains("today")); // false because we had Today with uppercase T
 
         System.out.println(day.contains("Ti7"));
+
         /*
         if you wanted to check for specific characters
 

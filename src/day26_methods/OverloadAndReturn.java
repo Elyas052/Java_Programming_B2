@@ -5,7 +5,7 @@ public class OverloadAndReturn {
         System.out.println("default empty method");
     }
 
-    // I will try to overload by changing the return type
+    // I will try to overload by changing the return type.
 
 //    public static int method(){
 //

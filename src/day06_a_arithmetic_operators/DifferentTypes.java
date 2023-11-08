@@ -3,7 +3,7 @@ package day06_a_arithmetic_operators;
 public class DifferentTypes {
     public static void main(String[] args) {
 
-        // both int
+        // Both int
         System.out.println(10 - 5);
         System.out.println(10 * 5 + "\n");
 
@@ -25,7 +25,7 @@ public class DifferentTypes {
         byte b2 = 20;
 
         // byte sum = b1 + b2;
-        // this will not work because the values get changed to int during the calculation
+        // This will not work because the values get changed to int during the calculation
 
         int sum = b1 + b2;
 

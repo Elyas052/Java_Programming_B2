@@ -22,7 +22,9 @@ public class AddElement {
             newArray[i] = original[i];
         }
         // Instead of doing a loop ourselves, we could have used Arrays.copyOf()
-        newArray[newArray.length - 1] = elementToAdd; // adding the new element to the end of the new array
+
+        // Adding the new element to the end of the new array.
+        newArray[newArray.length - 1] = elementToAdd;
         return newArray;
     }
 
@@ -38,10 +40,11 @@ public class AddElement {
         for (int i = 0, j = 0; i < newArray.length; i++) {
 
             if (i < original.length) {
-                // added the elements from the original array in the new array
+
+                // Added the elements from the original array in the new array.
                 newArray[i] = original[i];
             } else {
-                // added the new elements to the new array
+                // Added the new elements to the new array.
                 newArray[i] = elementsToAdd[j++];
             }
         }

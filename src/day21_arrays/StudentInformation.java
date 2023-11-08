@@ -1,14 +1,13 @@
 package day21_arrays;
 
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 /**
-        0 - id
-        1 - firstName
-        2 - lastName
-        3 - batchNumber
-     */
+ * 0 - id
+ * 1 - firstName
+ * 2 - lastName
+ * 3 - batchNumber
+ */
 
 public class StudentInformation {
     public static void main(String[] args) {
@@ -22,6 +21,7 @@ public class StudentInformation {
         studentTwo[1] = "Mickey";
         studentTwo[2] = "Mouse";
         studentTwo[3] = "Batch#2";
+
         //studentTwo[4] =  --- > ArrayIndexOutOfBoundException
         System.out.println(Arrays.toString(studentTwo));
 
@@ -38,14 +38,14 @@ public class StudentInformation {
 
         System.out.println(Arrays.toString(studentThree));
 
-        System.out.println("_____________________________________-");
+        System.out.println("_____________________________________");
+
         String[] questions = {"Enter id: ", "Enter name: ", "Enter lastname: ", "Enter batch number: "};
         //                         0              1                 2                       3
         String[] studentFour = new String[4];
         for (int i = 0; i < questions.length; i++) {
             System.out.println(questions[i]);
             studentFour[i] = input.next();
-
         }
         System.out.println(Arrays.toString(studentFour));
 

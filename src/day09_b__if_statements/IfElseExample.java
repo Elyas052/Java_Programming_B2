@@ -30,6 +30,7 @@ public class IfElseExample {
             System.out.println("Travel");
         }
          */
+
         System.out.println();
         int year = 2024;
         boolean isLockdown = year == 2020 || year == 2021;

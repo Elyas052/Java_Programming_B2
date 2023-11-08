@@ -34,7 +34,7 @@ public class LastCharacters2D {
         //System.out.println(words[2].length); // 4
 
 
-        // With Traditional Loop / Fori
+        // With Traditional Loop / Fori get each character.
         for (int j = 0; j < words.length; j++) {
 
             for (int i = 0; i < words[j].length; i++) {
@@ -45,8 +45,9 @@ public class LastCharacters2D {
         }
 
         System.out.println("---------------------------------------------");
-        // with FOREACH
-        for (String[] eachArr : words) {  // OUTER LOOP: cycling through 2D array, getting each single array
+
+        // With FOREACH --> get each characters
+        for (String[] eachArr : words) {  // OUTER LOOP: Cycling through 2D array, getting each single array.
 
             for (String eachElement : eachArr) {  // INNER LOOP: cycling through eachArr, getting each String
                 System.out.print(eachElement.charAt(eachElement.length() - 1));

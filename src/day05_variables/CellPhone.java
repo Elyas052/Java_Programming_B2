@@ -15,12 +15,12 @@ public class CellPhone {
         System.out.println("It came in the color of " + color + " and it has a " + storage + " GB");
         System.out.println("For the sim type " + sim + " with a camera " + hasCamera + ", the total price was $" + price);
 
-        // approach 2 with String variable:
+        // Approach 2 with String variable:
         String fullMessage = "I have an " + model + " from " + brand + "\nIt came in the color of " + color + " and it has a " + storage + " GB" + "\nFor the sim type " + sim + " with a camera " + hasCamera + ", the total price was $" + price;
 
         System.out.println();
         System.out.println(fullMessage);
-        // the point that, we can print the whole message again, very easily
+        // The point that, we can print the whole message again, very easily
 
     }
 }

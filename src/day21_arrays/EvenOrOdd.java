@@ -1,15 +1,16 @@
 package day21_arrays;
 
 public class EvenOrOdd {
-    /*
-   Even and odd from array
-   Write a program that can count the even and odd number from an array of integers
-   Ex:
-   Input: [4,1,3,12,5]
-   Output:
-   Even: 2
-   Odd: 3
-    */
+
+    /**
+     * Even and odd from an array.
+     * Write a program that can count the even and odd number from an array of integers.
+     * Ex:
+     * Input: [4,1,3,12,5]
+     * Output:
+     * Even: 2
+     * Odd: 3
+     */
     public static void main(String[] args) {
 
         int[] nums = {4, 1, 3, 12, 5, 20, 13};
@@ -30,9 +31,9 @@ public class EvenOrOdd {
 //
 //        }
 
-        for(int number: nums){
+        for (int number : nums) {
 
-            if(number % 2 == 0){
+            if (number % 2 == 0) {
                 even++;
                 evenNums += number + " ";
             } else {

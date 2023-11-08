@@ -35,8 +35,8 @@ public class GuessNumber {
             // This if a statement checks for valid inputs of number from 1 to 100
             if (userGuess > 0 && userGuess <= 100) {
 
-                // this an if statement tell the user how close the guess is to the number
-                // this is a repeated action
+                // This an if statement tell the user how close the guess is to the number
+                // This is a repeated action
                 if (userGuess == 80) {
                     System.out.println("Good guess! The number was " + secretNumber);
                 } else if (userGuess < 80) {
@@ -50,7 +50,7 @@ public class GuessNumber {
 
         } while (userGuess != 80);
 
-        // different if statement that gives some feedback based on the guesses / attempts
+        // Different if statement that gives some feedback based on the guesses / attempts
         if (attempts <= 2) {
             System.out.println("really good guess");
         } else if (attempts <= 4) {

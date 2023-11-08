@@ -8,12 +8,12 @@ public class MyFirstMethod {
         System.out.println("Hello World!");
     }
 
-//    // In the same class, we cannot have two same method names with the exact same parenthesis
+//    // In the same class, we cannot have two same method names with the exact same parenthesis.
 //    public static void helloWorld (){
 //    }
 
-    public static void helloWorld50() {
-        for (int i = 0; i < 50; i++) {
+    public static void helloWorld10() {
+        for (int i = 0; i < 10; i++) {
             //System.out.println("Hello World");
             helloWorld();
         }
@@ -24,8 +24,8 @@ public class MyFirstMethod {
         helloWorld();
         System.out.println("----------------");
 
-        helloWorld50();
-        helloWorld50();
+        helloWorld10();
+        helloWorld10();
 
     }
 }

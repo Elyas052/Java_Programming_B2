@@ -10,5 +10,6 @@ public class FirstScanner {
         System.out.println("Please enter a number");
         int number = input.nextInt();
         System.out.println("This is your number " + number);
+
     }
 }

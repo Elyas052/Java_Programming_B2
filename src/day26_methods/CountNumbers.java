@@ -2,7 +2,7 @@ package day26_methods;
 
 public class CountNumbers {
 
-    // Create a method that calculates the sum of all numbers up to itsef: 3 - > 1+2+3 -- > 6
+    // Create a method that calculates the sum of all numbers up to itself: 3 - > 1+2+3 -- > 6
     public static void count(int number) { // 5 -- > 0+1+2+3+4+5 -- > 15
         int sum = 0;
         for (int i = 1; i <= number; i++) {

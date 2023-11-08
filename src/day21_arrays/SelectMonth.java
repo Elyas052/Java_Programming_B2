@@ -1,9 +1,9 @@
 package day21_arrays;
 
 /**
-    Ask a user to enter a month number, then print the Name of that months
-        Input:  1
-        Output: January
+ * Ask a user to enter a month number, then print the Name of that month.
+ * Input: 1
+ * Output: January
  */
 
 import java.util.*;
@@ -21,9 +21,7 @@ public class SelectMonth {
         int userNum = input.nextInt();  // 12
 
         if (userNum >= 1 && userNum <= 12) {
-
             System.out.println(months[userNum - 1]);
-
         } else {
             System.out.println("Sorry, invalid input");
         }

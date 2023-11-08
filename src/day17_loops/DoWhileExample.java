@@ -19,7 +19,7 @@ public class DoWhileExample {
             ++a; // a = 1;
         } while (a2 == 10); // 1 == 10 --- > false
 
-        // this is a WHILE LOOP which almost same as DO WHILE LOOP, nothing will print from the code body since the condition is FALSE. In this example, loop body never executes.
+        // This is a WHILE LOOP which almost same as DO WHILE LOOP, nothing will print from the code body since the condition is FALSE. In this example, loop body never executes.
         int a3 = 0;
         while (a3 == 10) {
             System.out.println(a3);

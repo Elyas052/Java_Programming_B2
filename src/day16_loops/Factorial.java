@@ -7,8 +7,8 @@ public class Factorial {
         int result = 1;
 
         // 5 * 4 * 3 * 2 * 1
-        // repeated action: multiply the numbers by one less than it
-        // stopping point: number gets to 1
+        // Repeated action: multiply the numbers by one less than it
+        // Stopping point: number gets to 1
 
         while (n > 1) {
             System.out.println(result + " * " + n);

@@ -10,8 +10,7 @@ public class PrintNumbers {
         }
 
         System.out.println("\n");
-        // approach 2:
-
+        // Approach 2:
         int i = 1;
         while (i <= 20) {
             if (i % 2 == 1) {
@@ -23,8 +22,7 @@ public class PrintNumbers {
         System.out.println("\n");
 
 
-        // odd numbers
-
+        // Odd numbers
         int a = 1;
 
         while (a <= 100) {
@@ -33,8 +31,7 @@ public class PrintNumbers {
         }
 
         System.out.println("\n");
-        // approach 2
-
+        // Approach 2
         int b = 0;
 
         while (b++ < 100) {

@@ -1,10 +1,10 @@
 package day25_methods;
 
-/*
-    1 - Mon
-    2 - Tue
-    .
-    .
+/**
+ * 1 - Mon
+ * 2 - Tue
+ * .
+ * .
  */
 
 public class MethodWithOthers {

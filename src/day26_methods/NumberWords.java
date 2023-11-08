@@ -1,14 +1,14 @@
 package day26_methods;
 
-/*
-    1 - One
-    2 - Two
-    .....
+/**
+ * 1 - One
+ * 2 - Two
+ * .....
  */
 
 public class NumberWords {
 
-    // Return the correct word for the given number (numbers should be only 1-10)
+    // Return the correct word for the given number (numbers should be only 1-10).
     public static String numberAsWord(int num) {
 
         String[] words = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"};

@@ -1,10 +1,11 @@
 package day21_arrays;
 
 public class LongestAndShortestStrings {
-     /*
-    The shortest and Longest words from a String array
-    • Write a program that can return the shortest string element from a String array
-    • Write a program that can return the longest string element from a String array
+
+    /**
+     * The shortest and Longest words from a String array.
+     * • Write a program that can return the shortest string element from a String array.
+     * • Write a program that can return the longest string element from a String array.
      */
 
     public static void main(String[] args) {

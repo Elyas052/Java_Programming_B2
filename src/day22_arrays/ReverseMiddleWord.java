@@ -21,6 +21,7 @@ public class ReverseMiddleWord {
         }
 
         System.out.println(midReverse);
+
         // Java syawla fun
         words[1] = midReverse;
         System.out.println(Arrays.toString(words));

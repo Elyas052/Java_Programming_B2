@@ -37,7 +37,5 @@ public class AverageOfEach {
         System.out.println("Average: " + (sum / totalLength));
         System.out.println("Average: " + average);
 
-        //TODO: Task: Do it with traditional loop / fori
-
     }
 }

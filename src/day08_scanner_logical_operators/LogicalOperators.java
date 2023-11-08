@@ -4,8 +4,8 @@ public class LogicalOperators {
 
     public static void main(String[] args) {
 
-        // with || ----- >  if both sides are false, only then output is FALSE
-        // with && ----- >  if both sides are true, only then output is TRUE
+        // With || ----- >  if both sides are false, only then output is FALSE
+        // With && ----- >  if both sides are true, only then output is TRUE
 
         int n = 20;
 

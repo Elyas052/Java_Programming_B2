@@ -7,8 +7,8 @@ public class MaxMin {
         int min = nums[0];
         int max = nums[0];
 
-        // Loop through and get each element
-        // then compare that to see if it is bigger or less
+        // Loop through and get each element.
+        // Then compare that to see if it is bigger or less.
         for (int i = 0; i < nums.length; i++) {
 
             int eachElement = nums[i];

@@ -17,10 +17,11 @@ public class Comments {
         /*
             this code prints A
          */
+
         System.out.println("A");
 
         /**
-         *  this is java doc comment
+         *  this is a java doc comment
          *  it lets you do more stuff
          *  has more power, but we will see it later
          */

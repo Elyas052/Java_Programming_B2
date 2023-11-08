@@ -5,14 +5,13 @@ import java.util.Arrays;
 public class Anagram {
 
     /**
-        given two Strings
-        find if they are an anagram or not
-
-        the characters are the same in both Strings, but the order is different
-
-        listen
-        silent
-
+     * Given two Strings.
+     * Find if they are an anagram or not.
+     * <p>
+     * The characters are the same in both Strings, but the order is different.
+     * <p>
+     * listen
+     * silent
      */
 
     public static void main(String[] args) {
@@ -20,8 +19,8 @@ public class Anagram {
         String str = "listen";
         String str2 = "silent";
 
-        char [] one = str.toCharArray();
-        char [] two = str2.toCharArray();
+        char[] one = str.toCharArray();
+        char[] two = str2.toCharArray();
 
         Arrays.sort(one);
         Arrays.sort(two);
@@ -29,7 +28,7 @@ public class Anagram {
         System.out.println(Arrays.toString(one));
         System.out.println(Arrays.toString(two));
 
-        if(Arrays.equals(one, two)){
+        if (Arrays.equals(one, two)) {
             System.out.println("Anagram");
         } else {
             System.out.println("Not Anagram");

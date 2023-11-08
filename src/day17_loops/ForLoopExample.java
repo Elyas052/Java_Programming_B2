@@ -7,7 +7,7 @@ public class ForLoopExample {
             System.out.println(i);
         }
 
-        // if you did the same code as above with while loop:
+        // If you did the same code as above with while loop:
 
         int z = 1;
 

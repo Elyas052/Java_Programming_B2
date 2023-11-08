@@ -10,6 +10,7 @@ public class MergeString {
         System.out.print("Enter word2: ");
         String b = input.next();
          */
+
         String a = "abc";
         String b = "xyz";
 
@@ -26,5 +27,6 @@ public class MergeString {
         merged += b.charAt(2);
 
         System.out.println(merged);
+
     }
 }

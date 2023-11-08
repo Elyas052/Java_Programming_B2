@@ -17,7 +17,7 @@ public class IncrementExample {
         x++;
         System.out.println(x + "\n"); //3
 
-        //PRE-INCREMENT
+        // PRE-INCREMENT
         ++x; // this will increase the value by 1 --- >  x = x + 1;  -- > 3 + 1 = 4
         System.out.println(x + "\n");
 

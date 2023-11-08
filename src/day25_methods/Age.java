@@ -9,7 +9,7 @@ Take the birth year as a parameter.
 
 public class Age {
 
-    // age, calculateAge, getAge --> Methods name
+    // age, calculateAge, getAge --> Methods name.
     public static void getAge(int year) {
 
         // Can you handle if a user gives you something invalid - anything more than 2023?

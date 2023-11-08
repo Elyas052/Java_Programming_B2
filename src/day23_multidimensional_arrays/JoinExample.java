@@ -2,28 +2,28 @@ package day23_multidimensional_arrays;
 
 import java.util.Arrays;
 
-/*
-    Arrays.toString(arrName);
-    Arrays.equals(arr1, arr2);
-    Arrays.sort(arrName);
-
-    String str = "java";
-        str.toCharArray();
-        str.split("str");
-    String.join("", arrName)
-
-    String str = new String(charArrName);
+/**
+ * Arrays.toString(arrName);
+ * Arrays.equals(arr1, arr2);
+ * Arrays.sort(arrName);
+ * <p>
+ * String str = "java";
+ * str.toCharArray();
+ * str.split("str");
+ * String.join("", arrName)
+ * <p>
+ * String str = new String(charArrName);
  */
 
 public class JoinExample {
     public static void main(String[] args) {
 
-        String [] words = {"a", "b", "c", "d"};
+        String[] words = {"a", "b", "c", "d"};
         System.out.println(Arrays.toString(words));
 
         // Output: a-b-c
         String result = "";
-        for (String eachWord: words) {
+        for (String eachWord : words) {
 
             result += eachWord + "-";
             //System.out.print(eachWord + "-");
@@ -35,7 +35,7 @@ public class JoinExample {
 
             result2 += words[i];
 
-            if (i == words.length-1) {
+            if (i == words.length - 1) {
                 break;
             }
 
@@ -45,23 +45,25 @@ public class JoinExample {
 
         System.out.println("---------------------------");
 
-        // with .join() method
-        System.out.println(      String.join("-", words));
+        // With .join() method
+        System.out.println(String.join("-", words));
         System.out.println(String.join("<>", words));
         System.out.println(String.join("*", words));
-        System.out.println(String.join("--------", words));
+        System.out.println(String.join("-----", words));
         System.out.println(String.join(" ", words));
         System.out.println(String.join("", words));
+
+        System.out.println("---------------------------");
 
         // You can assign it into a String
         String str2 = String.join("*", words);
 
-        char [] arr = {'a', 'b', 'c', 'd'};
+        char[] arr = {'a', 'b', 'c', 'd'};
         String str = new String(arr);
         System.out.println(str);
 
         // The following takes anything after the FIRST comma as ONE array
-        System.out.println( String.join("-", words[0], words[2])); // [a, c]
+        System.out.println(String.join("-", words[0], words[2])); // [a, c]
 
     }
 }

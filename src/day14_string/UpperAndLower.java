@@ -37,5 +37,6 @@ public class UpperAndLower {
 
         word2 = word2.toLowerCase();
         System.out.println(word2);
+
     }
 }

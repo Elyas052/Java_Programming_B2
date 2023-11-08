@@ -1,15 +1,15 @@
 package day25_methods;
 
-/*
-    Create a method that accepts currency type and amount.
-    Return the correct converted amount.
-
-    100 - euro
-
-    1$ = 0.95 Euro
-    1$ = 150.23 Yen
-    1$ = 28.15 Lira
-    1$ = 83.17 Rupees
+/**
+ * Create a method that accepts currency type and amount.
+ * Return the correct converted amount.
+ * <p>
+ * 100 - euro
+ * <p>
+ * 1$ = 0.95 Euro
+ * 1$ = 150.23 Yen
+ * 1$ = 28.15 Lira
+ * 1$ = 83.17 Rupees
  */
 
 public class CurrencyConverter {

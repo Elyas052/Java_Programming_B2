@@ -54,5 +54,6 @@ public class RecapMethods {
         System.out.println("a    a".length()); // 6
         System.out.println("".length()); // 0
         System.out.println(""); // This is just an empty String
+
     }
 }
