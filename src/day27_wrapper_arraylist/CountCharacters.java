@@ -2,8 +2,8 @@ package day27_wrapper_arraylist;
 
 public class CountCharacters {
 
-    /*
-        "sef23LENF#$234sdf"
+    /**
+     * "sef23LENF#$234sdf"
      */
 
     public static void main(String[] args) {
@@ -16,6 +16,7 @@ public class CountCharacters {
         for (int i = 0; i < str.length(); i++) {
             char eachLetter = str.charAt(i);
 
+            // isUpperCase/ isLowerCase / isDigit --> comes from Character class
             if (Character.isUpperCase(eachLetter)) {
                 upperCount++;
             } else if (Character.isLowerCase(eachLetter)) {

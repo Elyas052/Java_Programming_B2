@@ -6,19 +6,24 @@ public class ArrayIndexOf {
     public static void main(String[] args) {
 
         int[] arr = {12, 34, 4, 2, 23, 324, 345, 4, 64};
-        //             0   1  2  3   4   5    6   7   8
+        //            0   1  2  3   4   5    6   7   8
         int num = 4;
 
         int index = indexOf(arr, num);
         System.out.println(index);
-
         System.out.println(indexOf(arr, num));
+
+        System.out.println("=================");
 
         System.out.println(indexOf(arr, 345));
 
+        System.out.println("=================");
+
         String[] words = {"hello", "bye", "java"};
-        //                     0      1       2
+        //                    0      1       2
         System.out.println(indexOf(words, "java"));
+
+        System.out.println("=================");
 
         // This one is calling .indexOf() method from different package
         System.out.println(ArrayUtil.indexOf(arr, 12));
@@ -29,7 +34,7 @@ public class ArrayIndexOf {
     public static int indexOf(int[] numArr, int num) {  // [ 1, 4, 4 ] --- 4
 
         for (int i = 0; i < numArr.length; i++) {  // i < 3 --- >   i = 0;  | i = 1;  | i = 2;  | i = 3;
-            if (numArr[i] == num) {                               //1 == 4 | 2 == 4; | 4 == 4;
+            if (numArr[i] == num) {                               //1 == 4  | 2 == 4; | 4 == 4;
                 return i;  // 1
             }
         }

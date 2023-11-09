@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Classroom {
     public static void main(String[] args) {
-        ArrayList<String> group = new ArrayList<>(); // Declared an ArrayList
+        ArrayList<String> group = new ArrayList<>(); // Declared an ArrayList.
         System.out.println(group.size()); //
 
         group.add("Ulvi");
@@ -33,6 +33,7 @@ public class Classroom {
         }
 
         System.out.println();
+
         // With FOREACH loop
         for (String eachElem : group) {
             System.out.println("Name: " + eachElem);

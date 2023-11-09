@@ -8,8 +8,8 @@ public class ParseNumbers {
         String strYear = "2023";
 
         int year1 = 2023;
-        Integer year2 = 2023;  // Autoboxing from - > int - > Integer
-        Integer year3 = year1; // Autoboxing from - > int - > Integer
+        Integer year2 = 2023;  // Autoboxing from - > int - > Integer.
+        Integer year3 = year1; // Autoboxing from - > int - > Integer.
 
         System.out.println("Current year: " + year1);  // 2023
         System.out.println("Next year: " + (year1 + 1));  // 2024
@@ -35,7 +35,7 @@ public class ParseNumbers {
         System.out.println("-----------------------");
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter you message: I am x years old");
+        System.out.println("Enter you message: I am x years old ");
         String response = input.nextLine(); // "I am 5 years old"
 
         // I can split it " " and assign it into an array, then get the index of 2.

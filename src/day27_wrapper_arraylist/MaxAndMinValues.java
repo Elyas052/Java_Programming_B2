@@ -5,7 +5,7 @@ public class MaxAndMinValues {
 
         System.out.println("Byte min value: " + Byte.MIN_VALUE);
         // Why is it - MIN_VALUE - in all capital letters?
-        // It is called CONSTANTS - (This is the final value, and it cannot change)
+        // It is called CONSTANTS - (This is the final value, and it cannot change).
         System.out.println("Byte max value: " + Byte.MAX_VALUE);
 
         System.out.println("Integer max value: " + Integer.MAX_VALUE);

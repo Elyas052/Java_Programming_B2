@@ -2,13 +2,13 @@ package day27_wrapper_arraylist;
 
 import java.util.ArrayList;
 
-/*
-    .add(parameter)
-    .add(index, parameter)
-    .get(index)
-    .remove(index) - > if finds returns true and removes first match if multiple exists
-    .remove(parameter)
-    .size()
+/**
+ * .add(parameter)
+ * .add(index, parameter)
+ * .get(index)
+ * .remove(index) - > if finds returns true and removes first match if multiple exists
+ * .remove(parameter)
+ * .size()
  */
 
 public class RemoveExample {
@@ -52,5 +52,6 @@ public class RemoveExample {
 
         list.remove("light");
         System.out.println(list);
+
     }
 }
