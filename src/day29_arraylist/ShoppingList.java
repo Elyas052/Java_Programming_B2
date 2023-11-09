@@ -1,55 +1,90 @@
 package day29_arraylist;
 
 import java.util.*;
+//import java.util.Scanner;
 
 public class ShoppingList {
     public static void main(String[] args) {
-
-        Scanner input = new Scanner(System.in);
         ArrayList<String> shoppingList = new ArrayList<>();
 
-        System.out.println(shoppingList.isEmpty() ? "Shopping List Empty" : "You have some items");
-        String keepAsking;
+        // Check if shoppingList is empty or has some items.
+        statusOfShoppingList(shoppingList);
+
+        // Ask a user to enter an item to add into a shopping list and continue until user does not want to add more.
+        // User will add it at least ONE time.
+        askToAddItems(shoppingList);
+
+        // Print out all the items from the list one by one
+        showListItems(shoppingList);
+
+        System.out.println("List has item? " + hasItem(shoppingList, "apple"));
+
+        // Create a method that removes item based on the index.
+        removeItem(shoppingList, 2);
+
+        showListItems(shoppingList);
+    }
+
+    //TODO:  Ask a user what index to remove if it is in the list range
+    public static void removeItem(ArrayList<String> list) {
+
+
+    }
+
+
+    public static void removeItem(ArrayList<String> list, int index) {
+        // added 3 items,
+        if (index >= 0 && index < list.size()) {
+            list.remove(index);
+        } else {
+            System.out.println(index + " is out of range");
+        }
+    }
+
+
+    public static boolean hasItem(ArrayList<String> list, String item) {
+        return list.contains(item);
+    }
+
+    //TODO:  Ask a user what item to check if it is in the list
+    public static boolean hasItem(ArrayList<String> list) {
+
+        return false;
+    }
+
+
+    public static void showListItems(ArrayList<String> list) {
+
+        System.out.println("Shopping List Items: ");
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println("\t" + (i + 1) + " " + list.get(i));
+        }
+    }
+
+
+    public static void statusOfShoppingList(ArrayList<String> list) {
+        if (list.isEmpty()) {
+            System.out.println("Shopping List Empty!");
+        } else {
+            System.out.println("Shopping List has Items!");
+        }
+
+        // This is doing the same this as above.
+        // System.out.println( list.isEmpty() ? "Shopping List Empty!" :"Shopping List has Items!" );
+    }
+
+
+    public static void askToAddItems(ArrayList<String> list) {
+        Scanner input = new Scanner(System.in);
+        String userDecision = "";
         do {
-            System.out.println("Enter the item ");
-            shoppingList.add(input.nextLine());
+            System.out.print("Enter the item: ");
+            list.add(input.nextLine());
 
-            System.out.println("Do you want to continue y/n");
-            keepAsking = input.nextLine();
+            System.out.print("Do you want to add more y/n: ");
+            userDecision = input.nextLine(); // y, Y,Yes, YES, yEs
 
-        } while (keepAsking.equals("yes") || keepAsking.equals("y"));
-
-        System.out.println("Shopping List: " + shoppingList.size() + " items:");
-        for (String item : shoppingList) {
-            System.out.println("*\t" + item);
-        }
-        System.out.println("----------------------------");
-
-        System.out.println(shoppingList.contains("water") ? "Water on list" : "No water on the list");
-
-        System.out.println("Do you want to remove any items?");
-        if (input.nextLine().equals("yes")) {
-            System.out.println("What item do you want to remove");
-
-            // This will either be an item name or the item number.
-            String removeItem = input.nextLine();
-
-            // Checks the first character of remove item, checks if it is a number.
-            if (Character.isDigit(removeItem.charAt(0))) {
-
-                // We convert the String into an int.
-                int number = Integer.parseInt(removeItem);
-
-                // Converts the number to an index.
-                // If the user wants to remove the first item, they would give 1, so to remove the first index 1 - 1 = 0
-                shoppingList.remove(number - 1);
-            } else {
-                shoppingList.remove(removeItem);
-            }
-        }
-
-        System.out.println("Final List: " + shoppingList);
+        } while (userDecision.equalsIgnoreCase("y") || userDecision.equalsIgnoreCase("yes"));
 
     }
 }
-

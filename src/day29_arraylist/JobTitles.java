@@ -5,21 +5,25 @@ import java.util.*;
 public class JobTitles {
     public static void main(String[] args) {
 
-        ArrayList<String> allJobs = new ArrayList<>();
-        allJobs.addAll(Arrays.asList("SDET", "Developer", "PO", "CEO", "Dev op", "QA", "BA", "Chef", "Doctor", "Police Officer", "PO"));
-        System.out.println("Original " + allJobs);
+        ArrayList <String> allJobs = new ArrayList<>();
+        allJobs.addAll(Arrays.asList("SDET", "DEV", "PO", "CEO", "DEVOP", "QA", "QE", "BA", "SM", "PM", "SH", "Team Lead", "Client", "Domain Expert", "SME"));
 
-        ArrayList<String> jobs1 = new ArrayList<>(allJobs);
-        jobs1.removeAll(Arrays.asList("PO", "QA", "BA"));
-        System.out.println(jobs1);
+        System.out.println("Original Job Titles: " + allJobs);
 
-        ArrayList<String> jobs2 = new ArrayList<>(allJobs);
-        jobs2.retainAll(Arrays.asList("SDET", "Developer", "Dev op", "PO"));
+        ArrayList <String> jobs1 = new ArrayList<>(allJobs);
+        jobs1.removeAll( Arrays.asList( "SM", "BA", "Client") );
+        System.out.println("After removeAll - 1 " + jobs1);
+
+        System.out.println("----------------------------");
+        ArrayList <String> jobs2 = new ArrayList<>(allJobs);
+        System.out.println(jobs2);
+        jobs2.retainAll( Arrays.asList( "SDET", "QA", "DEV") );
         System.out.println(jobs2);
 
-        ArrayList<String> jobs3 = new ArrayList<>(allJobs);
-        System.out.println(jobs3.containsAll(Arrays.asList("Chef", "CEO")));
-        System.out.println(jobs3.containsAll(Arrays.asList("Doctor", "Nurse")));
-
+        System.out.println("----------------------------");
+        ArrayList <String> jobs3 = new ArrayList<>(allJobs);
+        System.out.println(jobs3);
+        System.out.println(jobs3.containsAll(Arrays.asList("SDET", "PM", "SME")));
+        System.out.println(jobs3.containsAll(Arrays.asList("Doctor", "PM", "SME")));
     }
 }

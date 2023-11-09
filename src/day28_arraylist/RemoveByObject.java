@@ -5,13 +5,13 @@ import my_utilities.StringUtil;
 
 import java.util.ArrayList;
 
-/*
-    .add(parameter)
-    .add(index, parameter)
-    .get(index)
-    .remove(index) - > if finds returns Element / And removes the given index if exist
-    .remove(parameter) > if finds returns TRUE/FALSE and removes first match if multiple exists
-    .size()
+/**
+ * .add(parameter)
+ * .add(index, parameter)
+ * .get(index)
+ * .remove(index) - > if it finds returns Element / And removes the given index if exist
+ * .remove(parameter) > if it finds returns TRUE/FALSE and removes first match if multiple exists
+ * .size()
  */
 
 public class RemoveByObject {

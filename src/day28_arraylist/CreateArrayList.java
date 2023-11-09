@@ -3,20 +3,20 @@ package day28_arraylist;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-/*
-    .add(parameter)
-    .add(index, parameter)
-    .get(index)
-    .remove(index) - > if finds returns Element / And removes the given index if exist
-    .remove(parameter) > if finds returns TRUE/FALSE and removes first match if multiple exists
-    .size()
-    .contains (parameter) - > if the given parameter exists in the Arraylist, it returns true. If not, it returns false
-    .isEmpty () - > checks if the ArrayList has elements or not. If it does, it returns FALSE otherwise, it returns TRUE
-    .clear() - > It will remove all the elements from the Arraylist and make it empty
-    .set (index, parameter) - > It will find the given index and UPDATE the value on that index. If index is not in the range, it will throw IndexOutOfBoundsException
-    .indexOf(parameter) - > It will return the FIRST MATCHED ELEMENTS index. If nothing matched, -1 will be returned
-    .lastIndexOf(parameter) - > It will return the FIRST MATCHED ELEMENTS index from the END. If nothing matched, -1 will be returned
-    Arrays.asList( arr ) - > this will help to either convert the array into arraylist. Or, declare ArrayList with values directly.
+/**
+ * .add(parameter)
+ * .add(index, parameter)
+ * .get(index)
+ * .remove(index) - > if it finds returns Element / And removes the given index if exist
+ * .remove(parameter) > if it finds returns TRUE/FALSE and removes first match if multiple exists
+ * .size()
+ * .contains (parameter) - > if the given parameter exists in the Arraylist, it returns true. If not, it returns false
+ * .isEmpty () - > checks if the ArrayList has elements or not. If it does, it returns FALSE otherwise, it returns TRUE
+ * .clear() - > It will remove all the elements from the Arraylist and make it empty
+ * .set (index, parameter) - > It will find the given index and UPDATE the value on that index. If index is not in the range, it will throw IndexOutOfBoundsException
+ * .indexOf(parameter) - > It will return the FIRST MATCHED ELEMENTS index. If nothing matched, -1 will be returned
+ * .lastIndexOf(parameter) - > It will return the FIRST MATCHED ELEMENTS index from the END. If nothing matched, -1 will be returned
+ * Arrays.asList( arr ) - > this will help to either convert the array into arraylist. Or, declare ArrayList with values directly.
  */
 
 public class CreateArrayList {
@@ -28,12 +28,14 @@ public class CreateArrayList {
         listOne.add("bye");
         System.out.println(listOne);
 
-        ArrayList<String> listTwo = new ArrayList<>(listOne);  // adds the elements from the listOne ArrayList into the listTwo
+        // Adds the elements from the listOne ArrayList into the listTwo.
+        ArrayList<String> listTwo = new ArrayList<>(listOne);
         listTwo.add("Salam");
 
-        System.out.println("--------");
         System.out.println(listOne);
         System.out.println(listTwo);
+
+        System.out.println("--------");
 
         ArrayList<String> listThree = new ArrayList<>(Arrays.asList("hello", "bye", "three"));
         System.out.println(listThree);

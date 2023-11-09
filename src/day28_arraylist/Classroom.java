@@ -11,14 +11,22 @@ public class Classroom {
         group.add("Gular");
         System.out.println(group);
 
+        System.out.println("--------------");
+
         group.add(0, "Elturk");
         System.out.println(group);
+
+        System.out.println("--------------");
 
         System.out.println(group.get(0));
         System.out.println(group.get(2));
 
+        System.out.println("--------------");
+
         group.add("Anna");
         System.out.println(group);
+
+        System.out.println("--------------");
 
         group.add(1, "Sevil");
         System.out.println(group);

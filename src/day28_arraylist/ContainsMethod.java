@@ -2,14 +2,14 @@ package day28_arraylist;
 
 import java.util.ArrayList;
 
-/*
-    .add(parameter)
-    .add(index, parameter)
-    .get(index)
-    .remove(index) - > if finds returns Element / And removes the given index if exist
-    .remove(parameter) > if finds returns TRUE/FALSE and removes first match if multiple exists
-    .size()
-    .contains (parameter) - > if the given parameter exists in the Arraylist, it returns true. If not, it returns false
+/**
+ * .add(parameter)
+ * .add(index, parameter)
+ * .get(index)
+ * .remove(index) - > if it finds returns Element / And removes the given index if exist
+ * .remove(parameter) > if it finds returns TRUE/FALSE and removes first match if multiple exists
+ * .size()
+ * .contains (parameter) - > if the given parameter exists in the Arraylist, it returns true. If not, it returns false
  */
 
 public class ContainsMethod {
