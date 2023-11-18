@@ -1,7 +1,6 @@
 package day34_a_static.static_imports;
 
 // This line of code, IMPORTS all the static members of the Arrays class.
-
 import static java.util.Arrays.*;
 
 import static java.lang.Math.*;
@@ -15,10 +14,8 @@ public class WithImport {
 
         sort(a);
 
-
         System.out.println(PI);
 
         System.out.println(reverse("loop"));
-
     }
 }

@@ -2,16 +2,21 @@ package day33_b_encapsulation.access_modifiers;
 
 public class AccessModifier {
 
-    public int a; // public access modifier
-    int b;  // default access modifier
-    private int c; // private access modifiers
+    // Public access modifier
+    public int a;
+
+    // Default access modifier
+    int b;
+
+    // Private access modifiers
+    private int c;
 
     public static int x;
     static int y;
     private static int z;
 
     /**
-     * In the SAME CLASS
+     * In the SAME CLASS.
      */
 
     public static void main(String[] args) {
@@ -26,7 +31,7 @@ public class AccessModifier {
         System.out.println(AccessModifier.z); // CAN ACCESS
 
         /**
-         * all are accessible in the SAME class
+         * All are accessible in the SAME class.
          */
     }
 }

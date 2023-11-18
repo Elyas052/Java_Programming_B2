@@ -2,7 +2,8 @@ package day33_a_static;
 
 public class BestBuy {
 
-    String location; // instance variable
+    // Instance variable.
+    String location;
 
     static String headQuarter = "Minnesota, US";
 
@@ -16,13 +17,13 @@ public class BestBuy {
     // Instance variables CANNOT be called by Class Name.
 
 
-    // Every object has the SAME copy of STATIC variables
-    // Static variable can be called by Class name and object reference name (but do not use obj ref name)
+    // Every object has the SAME copy of STATIC variables.
+    // Static variable can be called by Class name and object reference name (but do not use obj ref name).
 
-    // Instance method
-    // They CANNOT be called by the class name
-    // Instance method can ACCEPT - INSTANCE variable and STATIC variable
-    // Instance CAN accept STATIC and INSTANCE
+    // Instance method.
+    // They CANNOT be called by the class name.
+    // Instance method can ACCEPT - INSTANCE variable and STATIC variable.
+    // Instance CAN accept STATIC and INSTANCE.
     public void openStore() {
         System.out.println("Opening " + location);
         System.out.println("Headquarter is " + headQuarter);

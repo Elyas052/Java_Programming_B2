@@ -21,10 +21,10 @@ package day34_b_encapsulation.pizza;
  * <p>
  * number of toppings must be a positive number
  * <p>
- * - other methods methods:
+ * - other methods:
  * <p>
  * - calculatePrice()
- * calculate the price of the pizza based on:
+ *  calculates the price of the pizza based on:
  * <p>
  * small base: $4
  * medium base: $6
@@ -41,7 +41,6 @@ package day34_b_encapsulation.pizza;
 public class Pizza {
     private String size;
     private int numberOfToppings;
-
 
     public Pizza(String size, int numberOfToppings) {
         setSize(size);

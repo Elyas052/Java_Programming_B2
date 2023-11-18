@@ -17,6 +17,5 @@ public class PizzaStore {
 
         pizzaTwo.calculatePrice();
         System.out.println(pizzaTwo);
-
     }
 }
