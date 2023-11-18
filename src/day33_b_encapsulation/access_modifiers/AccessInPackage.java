@@ -3,7 +3,7 @@ package day33_b_encapsulation.access_modifiers;
 public class AccessInPackage {
 
     /**
-     * In the SAME PACKAGE but In the DIFFERENT CLASS
+     * In the SAME PACKAGE but In the DIFFERENT CLASS.
      */
 
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class AccessInPackage {
 
         /**
          * 'c' and 'z' are NOT ACCESSIBLE outside the class.
-         * Because they have PRIVATE modifiers
+         * Because they have PRIVATE modifiers.
          */
 
     }

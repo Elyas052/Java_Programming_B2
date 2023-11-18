@@ -2,6 +2,7 @@ package day33_a_static;
 
 public class Iphone {
 
+    // Instance variables.
     String model;
     double price;
     static String company;

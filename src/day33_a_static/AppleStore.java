@@ -3,6 +3,7 @@ package day33_a_static;
 public class AppleStore {
     public static void main(String[] args) {
 
+        // Call Constructor and add parameters.
         Iphone phone1 = new Iphone("Iphone 14", 999.99);
         Iphone phone2 = new Iphone("Iphone 15", 1099.99);
 
@@ -17,6 +18,5 @@ public class AppleStore {
         System.out.println(Iphone.os);
 
         System.out.println(Iphone.appleDay);
-
     }
 }

@@ -17,6 +17,5 @@ public class UseLogin {
         System.out.println(obj.getUsername());
         System.out.println(obj.getPassword("tras"));
         //System.out.println(obj.password);
-
     }
 }

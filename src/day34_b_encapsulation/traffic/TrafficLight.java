@@ -27,6 +27,5 @@ public class TrafficLight {
         } else {
             System.out.println("It is not valid color for traffic light");
         }
-
     }
 }

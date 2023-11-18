@@ -23,6 +23,5 @@ public class Road {
         System.out.println();
         System.out.println(light.getColor());
         System.out.println(light2.getColor());
-
     }
 }

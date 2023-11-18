@@ -5,17 +5,17 @@ import java.util.Arrays;
 public class School {
     public static void main(String[] args) {
 
-        LoopcampStudents student1 = new LoopcampStudents("Sergii", 3);
+        LoopCampStudents student1 = new LoopCampStudents("Sergei", 3);
         System.out.println(student1);
 
-        LoopcampStudents student2 = new LoopcampStudents("Nihad", 3);
+        LoopCampStudents student2 = new LoopCampStudents("Nihad", 3);
         System.out.println(student2);
 
         System.out.println();
-        LoopcampStudents.printInfo();
+        LoopCampStudents.printInfo();
 
-        // can you get me the just name of the teachers in this course
-        System.out.println("Teachers Name: " + Arrays.toString(LoopcampStudents.teachers));
+        // Can you get me the just name of the teachers in this course?
+        System.out.println("Teachers Name: " + Arrays.toString(LoopCampStudents.teachers));
         System.out.println("Teachers Name: " + Arrays.toString(student1.teachers));
         System.out.println("Teachers Name: " + Arrays.toString(student2.teachers));
 
