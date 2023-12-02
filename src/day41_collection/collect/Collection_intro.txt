@@ -61,7 +61,7 @@ Classes that implement List Interface:
         - Keeps insertion order
         - Allows duplicates
 
-    - Vector:    -Legacy version (Older version) of ArrayList. It did the things that ArrayList does.
+    - Vector:   - Legacy version (Older version) of ArrayList. It did the things that ArrayList does.
                 - Re-sizable collection, but it is synchronized.
                     Synchronized: thread-safe:  means that cannot access multiple threads at the same
                     time. But ArrayList is not thread-safe, meaning we can access at the same time.
