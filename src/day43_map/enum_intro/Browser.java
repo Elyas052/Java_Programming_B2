@@ -1,9 +1,9 @@
 package day43_map.enum_intro;
 
 // enum --- > Enumeration
-// It is a special datatype that is MOSTLY used to define the CONSTANTS
+// It is a special datatype that is MOSTLY used to define the CONSTANTS.
 // Usually written in UPPERCASE
-// They act like class.So, they can have variable (MOSTLY Used for variables) and methods
+// They act like class.So, they can have variable (MOSTLY Used for variables) and methods.
 
 public enum Browser {
 
